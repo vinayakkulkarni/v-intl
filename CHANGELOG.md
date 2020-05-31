@@ -1,3 +1,13 @@
+<a name="0.3.1"></a>
+## 0.3.1 (2020-05-31)
+
+
+### Bug Fixes
+
+* add publishConfig for publishing to npm ([610cb49](https://github.com/vinayakkulkarni/v-intl/commit/610cb49))
+
+
+
 <a name="0.3.0"></a>
 # 0.3.0 (2020-05-31)
 
