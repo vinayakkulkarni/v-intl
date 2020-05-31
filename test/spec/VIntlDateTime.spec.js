@@ -1,6 +1,6 @@
 import { mount, createLocalVue } from '@vue/test-utils';
 import test from 'ava';
-import { VIntlDateTime } from '@/index';
+import VIntlDateTime from '../../src/VIntlDateTime.vue';
 
 let wrapper;
 const localVue = createLocalVue();
