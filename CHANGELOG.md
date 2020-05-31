@@ -1,3 +1,13 @@
+<a name="0.2.1"></a>
+## 0.2.1 (2020-05-31)
+
+
+### Bug Fixes
+
+* update ci ([31c6e89](https://github.com/vinayakkulkarni/v-intl/commit/31c6e89))
+
+
+
 <a name="0.2.0"></a>
 # 0.2.0 (2020-05-31)
 
