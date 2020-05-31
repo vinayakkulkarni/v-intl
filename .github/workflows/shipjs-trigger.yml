@@ -12,7 +12,14 @@ jobs:
         with:
           ref: master
       - uses: actions/setup-node@v1
-      - run: npm install
+        with:
+          registry-url: "https://registry.npmjs.org"
+      - run: |
+          if [ -f "yarn.lock" ]; then
+            yarn install
+          else
+            npm install
+          fi
       - run: npm run test
       - run: npm run release:trigger
         env:
