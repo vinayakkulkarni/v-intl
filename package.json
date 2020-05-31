@@ -1,5 +1,5 @@
 {
-  "name": "v-intl",
+  "name": "@vinayakkulkarni/v-intl",
   "version": "0.2.1",
   "description": "Native i18n components for Vue",
   "repository": {
@@ -61,7 +61,7 @@
     "rollup-plugin-babel": "^4.4.0",
     "rollup-plugin-terser": "^5.3.0",
     "rollup-plugin-vue": "^5.1.6",
-    "shipjs": "^0.18.3",
+    "shipjs": "^0.19.0",
     "tap-spec": "^5.0.0",
     "vue": "^2.6.11",
     "vue-template-compiler": "^2.6.11"
