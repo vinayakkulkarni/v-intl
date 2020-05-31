@@ -30,6 +30,10 @@
     "release:prepare": "shipjs prepare",
     "release:trigger": "shipjs trigger"
   },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
+  },
   "dependencies": {
     "@vue/composition-api": "^0.5.0"
   },
