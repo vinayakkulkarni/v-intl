@@ -1,12 +1,12 @@
 import { mount, createLocalVue } from '@vue/test-utils';
 import test from 'ava';
-import { VIntlDateTime } from '@/index';
+import VIntlDateTimeFormat from '@/src/VIntlDateTimeFormat.vue';
 
 let wrapper;
 const localVue = createLocalVue();
 
 test.beforeEach(() => {
-  wrapper = mount(VIntlDateTime, {
+  wrapper = mount(VIntlDateTimeFormat, {
     localVue,
   });
 });
