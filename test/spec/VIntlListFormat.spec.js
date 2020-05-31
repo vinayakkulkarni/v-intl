@@ -1,6 +1,6 @@
 import { mount, createLocalVue } from '@vue/test-utils';
 import test from 'ava';
-import VIntlListFormat from '../../src/VIntlListFormat.vue';
+import VIntlListFormat from '@/src/VIntlListFormat.vue';
 
 let wrapper;
 const localVue = createLocalVue();

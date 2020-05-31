@@ -1,6 +1,6 @@
 import { mount, createLocalVue } from '@vue/test-utils';
 import test from 'ava';
-import VIntlNumberFormat from '../../src/VIntlNumberFormat.vue';
+import VIntlNumberFormat from '@/src/VIntlNumberFormat.vue';
 
 let wrapper;
 const localVue = createLocalVue();

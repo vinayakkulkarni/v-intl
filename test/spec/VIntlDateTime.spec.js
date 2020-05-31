@@ -1,6 +1,6 @@
 import { mount, createLocalVue } from '@vue/test-utils';
 import test from 'ava';
-import VIntlDateTimeFormat from '../../src/VIntlDateTimeFormat.vue';
+import VIntlDateTimeFormat from '@/src/VIntlDateTimeFormat.vue';
 
 let wrapper;
 const localVue = createLocalVue();

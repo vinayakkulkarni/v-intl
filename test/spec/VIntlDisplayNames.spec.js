@@ -1,6 +1,6 @@
 import { mount, createLocalVue } from '@vue/test-utils';
 import test from 'ava';
-import VIntlDisplayNames from '../../src/VIntlDisplayNames.vue';
+import VIntlDisplayNames from '@/src/VIntlDisplayNames.vue';
 
 let wrapper;
 const localVue = createLocalVue();
