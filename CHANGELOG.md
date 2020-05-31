@@ -1,3 +1,19 @@
+<a name="0.3.0"></a>
+# 0.3.0 (2020-05-31)
+
+
+### Bug Fixes
+
+* lint ([dd2a15e](https://github.com/vinayakkulkarni/v-intl/commit/dd2a15e))
+* update pkg name ([a19c7b3](https://github.com/vinayakkulkarni/v-intl/commit/a19c7b3))
+
+
+### Features
+
+* add ci github action ([fb6de90](https://github.com/vinayakkulkarni/v-intl/commit/fb6de90))
+
+
+
 <a name="0.2.1"></a>
 ## 0.2.1 (2020-05-31)
 
