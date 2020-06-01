@@ -28,7 +28,9 @@
     "lint:prettier": "prettier --check \"{,!(node_modules|dist)/**/}*.{js,vue}\"",
     "lint:prettier:fix": "prettier --write \"{,!(node_modules|dist)/**/}*.{js,vue}\"",
     "release:prepare": "shipjs prepare",
-    "release:trigger": "shipjs trigger"
+    "release:trigger": "shipjs trigger",
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
   },
   "publishConfig": {
     "access": "public",
