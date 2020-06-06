@@ -4,6 +4,10 @@
 
 Intl in your dopeass Vue app 👨‍🔧
 
+## Usage
+
+### [In the docs 📓](https://v-intl.netlify.app)
+
 ## Background
 
 The package exposes 5 `Intl` components, viz.,
