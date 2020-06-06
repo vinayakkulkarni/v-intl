@@ -1,6 +1,6 @@
 ---
 title: 'V-Intl :: Relative time formatting'
-description: 'Intl Relative time formatter for your Vue apps'
+description: 'Relative time Intl formatter for your Vue apps'
 ---
 
 # Relative time formatting
