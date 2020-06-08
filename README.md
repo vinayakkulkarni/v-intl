@@ -61,11 +61,11 @@ The package exposes 5 `Intl` components, viz.,
 
 |Formatter|What it does?|More Info|
 |---|---|---|
-|[VIntlDateTimeFormat](./src/VIntlDateTimeFormat.vue)|_Formats the Date & Time._|[Read More](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/DateTimeFormat)|
-|[VIntlListFormat](./src/VIntlListFormat.vue)|_Enables language-sensitive list formatting._|[Read More](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/ListFormat)|
-|[VIntlNumberFormat](./src/VIntlNumberFormat.vue)|_Enable language sensitive number formatting._ |[Read More](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/NumberFormat)|
-|[VIntlRelativeTimeFormat](./src/VIntlRelativeTimeFormat.vue)|_Create a relative time formatter in specified locale._ |[Read More](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/RelativeTimeFormat/RelativeTimeFormat)|
-|[VIntlDisplayNames](./src/VIntlDisplayNames.vue)|_Translates region, language, currency, script._|[Read More](https://v8.dev/features/intl-displaynames#full-api)|
+|[VIntlListFormat](https://v-intl.netlify.app/guide/format/list.html)|_Enables language-sensitive list formatting._|[Read More](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/ListFormat)|
+|[VIntlNumberFormat](https://v-intl.netlify.app/guide/format/number.html)|_Enable language sensitive number formatting._ |[Read More](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/NumberFormat)|
+|[VIntlDateTimeFormat](https://v-intl.netlify.app/guide/format/date-time.html)|_Formats the Date & Time._|[Read More](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/DateTimeFormat)|
+|[VIntlRelativeTimeFormat](https://v-intl.netlify.app/guide/format/relative-time.html)|_Create a relative time formatter in specified locale._ |[Read More](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/RelativeTimeFormat/RelativeTimeFormat)|
+|[VIntlDisplayNames](https://v-intl.netlify.app/guide/format/display-names.html)|_Translates region, language, currency, script._|[Read More](https://v8.dev/features/intl-displaynames#full-api)|
 
 
 They're are tree-shakable, meaning, you don't need to bulk up your bundle by including all the components. 
