@@ -1,3 +1,22 @@
+<a name="0.4.0"></a>
+# [0.4.0](https://github.com/vinayakkulkarni/v-intl/compare/v0.3.1...v0.4.0) (2020-06-14)
+
+
+### Bug Fixes
+
+* export RTF in bundle ([54b14d2](https://github.com/vinayakkulkarni/v-intl/commit/54b14d2))
+* update package.json ([a712b1d](https://github.com/vinayakkulkarni/v-intl/commit/a712b1d))
+
+
+### Features
+
+* **badges:** add badges ([f867230](https://github.com/vinayakkulkarni/v-intl/commit/f867230))
+* **list:** update list formatter docs ([aab7399](https://github.com/vinayakkulkarni/v-intl/commit/aab7399))
+* **vuepress:** update scaffolding ([9df9621](https://github.com/vinayakkulkarni/v-intl/commit/9df9621))
+* add netlify support 🤖 ([a855323](https://github.com/vinayakkulkarni/v-intl/commit/a855323))
+
+
+
 <a name="0.3.1"></a>
 ## 0.3.1 (2020-05-31)
 
