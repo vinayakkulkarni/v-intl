@@ -2,19 +2,15 @@
   "name": "@vinayakkulkarni/v-intl",
   "version": "0.3.1",
   "description": "Native i18n components for Vue",
-  "repository": {
-    "url": "git+https://github.com/vinayakkulkarni/v-intl",
-    "type": "git"
-  },
-  "author": {
-    "name": "vinayakkulkarni",
-    "email": "inbox.vinayak@gmail.com",
-    "url": "https://vinayakkulkarni.dev"
-  },
-  "license": "MIT",
   "files": [
     "dist"
   ],
+  "private": false,
+  "main": "dist/v-intl.js",
+  "module": "dist/v-rating.esm.js",
+  "unpkg": "dist/v-pip.js",
+  "jsdelivr": "dist/v-pip.js",
+  "cdn": "dist/v-pip.js",
   "scripts": {
     "test": "ava",
     "test:snapshot": "ava --update-snapshots",
@@ -70,6 +66,21 @@
     "vue": "^2.6.11",
     "vue-template-compiler": "^2.6.11",
     "vuepress": "^1.5.2"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/vinayakkulkarni/v-intl/blob/master/LICENSE"
+    }
+  ],
+  "author": {
+    "name": "vinayakkulkarni",
+    "email": "inbox.vinayak@gmail.com",
+    "url": "https://vinayakkulkarni.dev"
+  },
+  "repository": {
+    "url": "git+https://github.com/vinayakkulkarni/v-intl",
+    "type": "git"
   },
   "bugs": {
     "url": "https://github.com/vinayakkulkarni/v-intl/issues"
