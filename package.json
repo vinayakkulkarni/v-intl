@@ -11,6 +11,7 @@
   "unpkg": "dist/v-pip.js",
   "jsdelivr": "dist/v-pip.js",
   "cdn": "dist/v-pip.js",
+  "sideEffects": false,
   "scripts": {
     "test": "ava",
     "test:snapshot": "ava --update-snapshots",
