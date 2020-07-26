@@ -48,8 +48,12 @@
 <a href="https://rollupjs.org/guide/en/" rel="nofollow">
 <img alt="npm dev dependency version" src="https://img.shields.io/npm/dependency-version/@vinayakkulkarni/v-intl/dev/rollup?logo=rollup.js">
 </a>
+<a href="https://app.fossa.com/projects/git%2Bgithub.com%2Fvinayakkulkarni%2Fv-intl?ref=badge_shield" alt="FOSSA Status"><img src="https://app.fossa.com/api/projects/git%2Bgithub.com%2Fvinayakkulkarni%2Fv-intl.svg?type=shield"/></a>
 
 Intl in your dopeass Vue app 👨‍🔧
+
+
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fvinayakkulkarni%2Fv-intl.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fvinayakkulkarni%2Fv-intl?ref=badge_large)
 
 ## Usage
 
@@ -77,5 +81,3 @@ I've tried to keep the API as consistent as possible.
 Authored and maintained by Vinayak Kulkarni with help from contributors ([list](https://github.com/vinayakkulkarni/v-intl/contributors)).
 
 > [vinayakkulkarni.dev](https://vinayakkulkarni.dev) · GitHub [@vinayakkulkarni](https://github.com/vinayakkulkarni) · Twitter [@\_vinayak_k](https://twitter.com/_vinayak_k)
-
-
