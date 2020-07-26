@@ -1,4 +1,6 @@
 module.exports = {
+  title: 'V-Intl',
+  description: 'Easy i18n in your next Vue app :)',
   themeConfig: {
     sidebar: {
       '/': [

@@ -2,7 +2,7 @@ name: Ship js trigger
 on:
   push:
     branches:
-      - master
+      - main
 jobs:
   build:
     name: Release
@@ -10,16 +10,11 @@ jobs:
     steps:
       - uses: actions/checkout@v2
         with:
-          ref: master
+          ref: main
       - uses: actions/setup-node@v1
         with:
           registry-url: "https://registry.npmjs.org"
-      - run: |
-          if [ -f "yarn.lock" ]; then
-            yarn install
-          else
-            npm install
-          fi
+      - run: npm i
       - run: npm run test
       - run: npm run release:trigger
         env:
