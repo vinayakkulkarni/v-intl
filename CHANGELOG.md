@@ -1,3 +1,18 @@
+## [0.4.2](https://github.com/vinayakkulkarni/v-intl/compare/v0.4.1...v0.4.2) (2020-07-26)
+
+
+### Bug Fixes
+
+* **docs:** update title & description in docs ([5067c4b](https://github.com/vinayakkulkarni/v-intl/commit/5067c4bfd381b9419100e0eb928ac38a0e714641))
+* update rollup plugin ([70f99cd](https://github.com/vinayakkulkarni/v-intl/commit/70f99cd2101e77398a1e0a1fe291e9b66ded3e87))
+* **deps:** bump @vue/composition-api from 0.6.3 to 0.6.4 ([4e9ace9](https://github.com/vinayakkulkarni/v-intl/commit/4e9ace91d0e82ad4f9d607e5689140390f701862))
+* **deps:** bump @vue/composition-api from 0.6.4 to 0.6.5 ([ad597e0](https://github.com/vinayakkulkarni/v-intl/commit/ad597e00e9fb7af695e9a1f314add31d33fb2099))
+* **deps:** bump @vue/composition-api from 0.6.5 to 0.6.6 ([a1cd804](https://github.com/vinayakkulkarni/v-intl/commit/a1cd8045f9eb3a13321d6d75ee19007dcdd2b1f7))
+* **deps:** bump @vue/composition-api from 0.6.6 to 0.6.7 ([87a0b5c](https://github.com/vinayakkulkarni/v-intl/commit/87a0b5ce44b2ae23b3f8756318b324fce02cb7cb))
+* **deps:** bump lodash from 4.17.15 to 4.17.19 ([0bbba86](https://github.com/vinayakkulkarni/v-intl/commit/0bbba863deab4ef3221413a1a8c7632c9c9cf8d1))
+
+
+
 <a name="0.4.1"></a>
 ## [0.4.1](https://github.com/vinayakkulkarni/v-intl/compare/v0.4.0...v0.4.1) (2020-06-15)
 
