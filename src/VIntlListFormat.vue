@@ -7,7 +7,7 @@
 <script lang="ts">
   import { computed, defineComponent } from '@vue/composition-api';
   export default defineComponent({
-    name: 'v-intl-listformat',
+    name: 'v-intl-list-format',
     props: {
       wrapper: {
         type: String,
