@@ -7,7 +7,7 @@
 <script lang="ts">
   import { computed, defineComponent } from '@vue/composition-api';
   export default defineComponent({
-    name: 'v-intl-datetime',
+    name: 'v-intl-date-time-format',
     props: {
       wrapper: {
         type: String,
