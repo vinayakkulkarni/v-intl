@@ -1,3 +1,15 @@
+## [0.4.3](https://github.com/vinayakkulkarni/v-intl/compare/v0.4.2...v0.4.3) (2020-08-17)
+
+
+### Bug Fixes
+
+* update names of the components ([2591e65](https://github.com/vinayakkulkarni/v-intl/commit/2591e65141b9e6f7338cf7ceee8b21271e4b90bf))
+* **deps:** bump @vue/composition-api from 1.0.0-beta.6 to 1.0.0-beta.7 ([bd266c8](https://github.com/vinayakkulkarni/v-intl/commit/bd266c8ac170b7ed827dbaa88f410518ed5a77d7))
+* **deps:** bump @vue/composition-api from 1.0.0-beta.7 to 1.0.0-beta.8 ([9b0bb33](https://github.com/vinayakkulkarni/v-intl/commit/9b0bb3303b0110fb68a9b19ade9bce5f1123d281))
+* **deps:** bump @vue/composition-api from 1.0.0-beta.8 to 1.0.0-beta.9 ([c8f9a92](https://github.com/vinayakkulkarni/v-intl/commit/c8f9a92696f712ab2e5a84c5da49e9056fa01149))
+
+
+
 ## [0.4.2](https://github.com/vinayakkulkarni/v-intl/compare/v0.4.1...v0.4.2) (2020-07-26)
 
 
