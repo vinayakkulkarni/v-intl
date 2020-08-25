@@ -27,7 +27,8 @@
     "release:prepare": "shipjs prepare",
     "release:trigger": "shipjs trigger",
     "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs"
+    "docs:build": "vuepress build docs",
+    "preinstall": "npx npm-force-resolutions"
   },
   "publishConfig": {
     "access": "public",
@@ -67,6 +68,9 @@
     "vue": "^2.6.12",
     "vue-template-compiler": "^2.6.12",
     "vuepress": "^1.5.4"
+  },
+  "resolutions": {
+    "serialize-javascript": "^4.0.0"
   },
   "licenses": [
     {
