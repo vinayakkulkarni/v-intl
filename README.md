@@ -1,7 +1,7 @@
 # V-Intl 🌏
 
 <a href="https://github.com/vinayakkulkarni/janak" rel="nofollow">
-  <img alt="Built with Janak" src="https://img.shields.io/badge/dynamic/json?color=success&label=built%20using%20janak&prefix=v&query=version&url=https%3A%2F%2Fraw.githubusercontent.com%2Fvinayakkulkarni%2Fjanak%2Fmaster%2Fpackage.json">
+  <img alt="Built with Janak" src="https://img.shields.io/badge/built%20using-janak-brightgreen">
 </a>
 <a href="https://github.com/vinayakkulkarni/v-intl/actions?query=workflow%3Aci" rel="nofollow">
   <img alt="CI Pipeline" src="https://github.com/vinayakkulkarni/v-intl/workflows/ci/badge.svg">
@@ -10,7 +10,7 @@
   <img alt="ShipJS Trigger" src="https://github.com/vinayakkulkarni/v-intl/workflows/Ship%20js%20trigger/badge.svg">
 </a>
 <a href="https://github.com/vinayakkulkarni/v-intl/releases" rel="nofollow">
-  <img alt="GitHub package.json version" src="https://img.shields.io/github/package-json/v/vinayakkulkarni/v-intl?color=brightgreen&label=version%40latest&logo=github">
+  <img alt="GitHub package.json version (branch)" src="https://img.shields.io/github/package-json/v/vinayakkulkarni/v-intl/main?color=brightgreen&label=version%40latest&logo=github">
 </a>
 <a href="https://www.npmjs.com/package/@vinayakkulkarni/v-intl" rel="nofollow">
   <img alt="npm (tag)" src="https://img.shields.io/npm/v/@vinayakkulkarni/v-intl/latest?color=brightgreen&logo=npm">
