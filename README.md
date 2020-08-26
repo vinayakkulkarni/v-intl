@@ -1,7 +1,7 @@
 # V-Intl 🌏
 
 <a href="https://github.com/vinayakkulkarni/janak" rel="nofollow">
-  <img alt="Built with Janak" src="https://img.shields.io/badge/dynamic/json?color=success&label=built%20using%20janak&prefix=v&query=version&url=https%3A%2F%2Fraw.githubusercontent.com%2Fvinayakkulkarni%2Fjanak%2Fmaster%2Fpackage.json">
+  <img alt="Built with Janak" src="https://img.shields.io/badge/built%20using-janak-brightgreen">
 </a>
 <a href="https://github.com/vinayakkulkarni/v-intl/actions?query=workflow%3Aci" rel="nofollow">
   <img alt="CI Pipeline" src="https://github.com/vinayakkulkarni/v-intl/workflows/ci/badge.svg">
