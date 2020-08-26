@@ -10,7 +10,7 @@
   <img alt="ShipJS Trigger" src="https://github.com/vinayakkulkarni/v-intl/workflows/Ship%20js%20trigger/badge.svg">
 </a>
 <a href="https://github.com/vinayakkulkarni/v-intl/releases" rel="nofollow">
-  <img alt="GitHub package.json version" src="https://img.shields.io/github/package-json/v/vinayakkulkarni/v-intl?color=brightgreen&label=version%40latest&logo=github">
+  <img alt="GitHub package.json version (branch)" src="https://img.shields.io/github/package-json/v/vinayakkulkarni/v-intl/main?color=brightgreen&label=version%40latest&logo=github">
 </a>
 <a href="https://www.npmjs.com/package/@vinayakkulkarni/v-intl" rel="nofollow">
   <img alt="npm (tag)" src="https://img.shields.io/npm/v/@vinayakkulkarni/v-intl/latest?color=brightgreen&logo=npm">
