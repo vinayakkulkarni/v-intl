@@ -1,6 +1,6 @@
 {
   "name": "@vinayakkulkarni/v-intl",
-  "version": "0.4.3",
+  "version": "1.0.0",
   "description": "Native i18n components for your shiny Vue 3 apps",
   "files": [
     "dist"

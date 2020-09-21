@@ -1,3 +1,28 @@
+# [1.0.0](https://github.com/vinayakkulkarni/v-intl/compare/v0.4.3...v1.0.0) (2020-09-21)
+
+
+### Bug Fixes
+
+* **deps:** bump @vue/composition-api from 1.0.0-beta.11 to 1.0.0-beta.13 ([e0a7f42](https://github.com/vinayakkulkarni/v-intl/commit/e0a7f42cffa844984de8dc16b93f83b4a4ec8371))
+* **deps:** bump @vue/composition-api from 1.0.0-beta.13 to 1.0.0-beta.14 ([d5539aa](https://github.com/vinayakkulkarni/v-intl/commit/d5539aaf2002d1c17d55b1e4a9b38657658d0870))
+* **deps:** bump node-fetch from 2.6.0 to 2.6.1 ([039e0f6](https://github.com/vinayakkulkarni/v-intl/commit/039e0f64ce02264aeb427c5c531c0e35a4f21a24))
+* add name to all steps ([829d148](https://github.com/vinayakkulkarni/v-intl/commit/829d1486cfd3ab1c5a8772b25c520886a8810635))
+* update `serialize-javascript` vuln ([cb52f99](https://github.com/vinayakkulkarni/v-intl/commit/cb52f9930f9e949779ab6b621e9a4d2c8e428a8c))
+* update `version` badge ([4a2540e](https://github.com/vinayakkulkarni/v-intl/commit/4a2540ea9bc3f2d72895bb0b5f9ed7436124f1d6))
+* update internal devDeps ([cd31cdf](https://github.com/vinayakkulkarni/v-intl/commit/cd31cdf8c825bc80434d84a45f5505374e5cee72))
+* update Janak badge ([8a23e1d](https://github.com/vinayakkulkarni/v-intl/commit/8a23e1db790150624db14b04982d1305b0ef54df))
+* update serialize-js vuln ([9adfa45](https://github.com/vinayakkulkarni/v-intl/commit/9adfa4595d8a5412cc10b92fda98c5c86167aad3))
+* **deps:** bump @vue/composition-api from 1.0.0-beta.10 to 1.0.0-beta.11 ([1060411](https://github.com/vinayakkulkarni/v-intl/commit/1060411a336eda3ef1795f1a8cb2688a02390452))
+* **deps:** bump pkg versions ([7bbac36](https://github.com/vinayakkulkarni/v-intl/commit/7bbac36c9555056ec6d8e4ae661cd0eec04457ac))
+* **deps:** vulnerability fixed ([261426a](https://github.com/vinayakkulkarni/v-intl/commit/261426a755ab2f726e7724e20d85b369d664485b))
+
+
+### Features
+
+* refactor using vue 3 🎉 ([49647fc](https://github.com/vinayakkulkarni/v-intl/commit/49647fcc8950968ec8cdbd87ce5fe6bef0fea735))
+
+
+
 ## [0.4.3](https://github.com/vinayakkulkarni/v-intl/compare/v0.4.2...v0.4.3) (2020-08-17)
 
 
