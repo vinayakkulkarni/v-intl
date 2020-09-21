@@ -1,6 +1,7 @@
 import babel from '@rollup/plugin-babel';
 import commonjs from '@rollup/plugin-commonjs';
 import vue from 'rollup-plugin-vue';
+import resolve from '@rollup/plugin-node-resolve';
 
 export default [
   // ESM build to be used with webpack/rollup.
@@ -12,13 +13,11 @@ export default [
       file: 'dist/v-intl.esm.js',
     },
     plugins: [
-      babel({
-        exclude: 'node_modules/**',
-      }),
+      babel({ babelHelpers: 'bundled', exclude: 'node_modules/**' }),
       commonjs(),
       vue(),
+      resolve(),
     ],
-    external: ['@vue/composition-api'],
   },
   // CommonJS build
   {
@@ -29,13 +28,11 @@ export default [
       file: 'dist/v-intl.cjs.js',
     },
     plugins: [
-      babel({
-        exclude: 'node_modules/**',
-      }),
+      babel({ babelHelpers: 'bundled', exclude: 'node_modules/**' }),
       commonjs(),
       vue(),
+      resolve(),
     ],
-    external: ['@vue/composition-api'],
   },
   // UMD build.
   {
@@ -44,17 +41,12 @@ export default [
       format: 'umd',
       name: 'VIntl',
       file: 'dist/v-intl.js',
-      globals: {
-        '@vue/composition-api': 'vueCompositionApi',
-      },
     },
     plugins: [
-      babel({
-        exclude: 'node_modules/**',
-      }),
+      babel({ babelHelpers: 'bundled', exclude: 'node_modules/**' }),
       commonjs(),
       vue(),
+      resolve(),
     ],
-    external: ['@vue/composition-api'],
   },
 ];
