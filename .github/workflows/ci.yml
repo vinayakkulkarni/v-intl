@@ -18,25 +18,27 @@ jobs:
         node: [14]
 
     steps:
-      - name: Checkout code ⚡️
+      - name: Checkout 🛎
         uses: actions/checkout@master
 
-      - name: Setup Node environment 🧪
-        uses: actions/setup-node@v1
+      - name: Setup node env 🏗
+        uses: actions/setup-node@v2.1.1
         with:
           node-version: ${{ matrix.node }}
 
-      - name: Restore & cache node_modules 🤖
-        uses: actions/cache@v1
+      - name: Cache node_modules 📦
+        uses: actions/cache@v2
         with:
-          path: node_modules
-          key: ${{ matrix.os }}-node-v${{ matrix.node }}-deps-${{ hashFiles(format('{0}{1}', github.workspace, '/package-lock.json')) }}
-
-      - name: Clean install package dependencies 📦
+          path: ~/.npm
+          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-node-
+      
+      - name: Install dependencies 👨🏻‍💻
         run: npm ci
 
-      - name: Ensure code is properly linted 🤙
+      - name: Run linter 👀
         run: npm run lint
 
-      - name: Ensure all tests are passing 🧪
+      - name: Run tests 🧪
         run: npm run test
