@@ -41,19 +41,19 @@
     "@vinayakkulkarni/prettier-config-vue": "^1.0.0",
     "@vue/compiler-sfc": "^3.0.0",
     "babel-eslint": "^10.1.0",
-    "eslint": "^7.9.0",
-    "eslint-config-prettier": "^6.11.0",
+    "eslint": "^7.10.0",
+    "eslint-config-prettier": "^6.12.0",
     "eslint-config-vue": "^2.0.2",
     "eslint-plugin-prettier": "^3.1.4",
     "eslint-plugin-vue": "^6.2.2",
     "husky": "^4.3.0",
     "prettier": "^2.1.2",
-    "rollup": "^2.28.1",
+    "rollup": "^2.28.2",
     "rollup-plugin-terser": "^7.0.2",
     "rollup-plugin-vue": "^6.0.0-beta.10",
     "shipjs": "^0.22.0",
     "vue": "^3.0.0",
-    "vuepress": "^1.5.4"
+    "vuepress": "^1.6.0"
   },
   "license": "MIT",
   "author": {
