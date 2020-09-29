@@ -1,3 +1,15 @@
+## [1.0.1](https://github.com/vinayakkulkarni/v-intl/compare/v1.0.0...v1.0.1) (2020-09-29)
+
+
+### Bug Fixes
+
+* **deps:** remove testing related deps ([c545a35](https://github.com/vinayakkulkarni/v-intl/commit/c545a3573a1742f482c1ac47b9d63b6180218ad5))
+* **deps:** update internal dev deps ([68d6ef0](https://github.com/vinayakkulkarni/v-intl/commit/68d6ef08ebe523e7a77d49417eb4159b6242a476))
+* **tests:** remove ava & testing setup ([50edcfe](https://github.com/vinayakkulkarni/v-intl/commit/50edcfeff9b33a77705befa498f8ac25e665a06b))
+* minor housekeeping ([eb8f0a9](https://github.com/vinayakkulkarni/v-intl/commit/eb8f0a94a8fe4c394823d62b4847e0c2fa721b69))
+
+
+
 # [1.0.0](https://github.com/vinayakkulkarni/v-intl/compare/v0.4.3...v1.0.0) (2020-09-21)
 
 
