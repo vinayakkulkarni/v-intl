@@ -37,7 +37,7 @@
   <img src="https://img.shields.io/badge/deploy-🛳%20Ship.js-blue?style=flat" />
 </a>
 <a href="https://vuejs.org/" rel="nofollow">
-  <img alt="npm (prod) dependency version" src="https://img.shields.io/npm/dependency-version/@vinayakkulkarni/v-intl/@vue/composition-api?logo=vue.js" />
+  <img alt="npm (prod) dependency version" src="https://img.shields.io/npm/dependency-version/@vinayakkulkarni/v-intl/dev/vue?logo=vue.js" />
 </a>
 <a href="https://prettier.io/" rel="nofollow">
   <img alt="npm dev dependency version" src="https://img.shields.io/npm/dependency-version/@vinayakkulkarni/v-intl/dev/prettier?logo=prettier">
@@ -49,7 +49,12 @@
 <img alt="npm dev dependency version" src="https://img.shields.io/npm/dependency-version/@vinayakkulkarni/v-intl/dev/rollup?logo=rollup.js">
 </a>
 
-Intl in your dopeass Vue app 👨‍🔧
+
+Intl in your dopeass Vue 3 apps 👨‍🔧
+
+## Demo
+
+[![Edit v-intl](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/v-intl-7e0j0?fontsize=14&hidenavigation=1&theme=dark)
 
 ## Usage
 
