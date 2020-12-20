@@ -1,3 +1,21 @@
+## [1.0.3](https://github.com/vinayakkulkarni/v-intl/compare/v1.0.2...v1.0.3) (2020-12-20)
+
+
+### Bug Fixes
+
+* bump rollup & eslint pkgs ([a8d16b2](https://github.com/vinayakkulkarni/v-intl/commit/a8d16b21da70e605ff0325fb5ca205cba5dc0c47))
+* **deps:** bump actions/setup-node from v2.1.1 to v2.1.2 ([992b390](https://github.com/vinayakkulkarni/v-intl/commit/992b39088461b5144ccf85e40813caf7a177477c))
+* **deps:** bump actions/setup-node from v2.1.2 to v2.1.3 ([6c93370](https://github.com/vinayakkulkarni/v-intl/commit/6c93370aa53b2e4368a7e2315c7efba238ce9acd))
+* **deps:** bump actions/setup-node from v2.1.3 to v2.1.4 ([4f96aa3](https://github.com/vinayakkulkarni/v-intl/commit/4f96aa36ee193f7fac8a234ee6f85bdf598cfcde))
+* **deps:** bump ini from 1.3.5 to 1.3.8 ([8513bba](https://github.com/vinayakkulkarni/v-intl/commit/8513bba172f83302865d46d4a23f1b2eadb239e2))
+
+
+### Performance Improvements
+
+* update plugins[] and cjs issue ([d0c2c76](https://github.com/vinayakkulkarni/v-intl/commit/d0c2c76b82078eec264ad210cde0b19cdbfb18fc)), closes [/github.com/rollup/rollup-plugin-commonjs/issues/247#issuecomment-341140246](https://github.com//github.com/rollup/rollup-plugin-commonjs/issues/247/issues/issuecomment-341140246)
+
+
+
 ## [1.0.2](https://github.com/vinayakkulkarni/v-intl/compare/v1.0.1...v1.0.2) (2020-09-30)
 
 
