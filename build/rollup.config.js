@@ -1,7 +1,22 @@
+import alias from '@rollup/plugin-alias';
 import babel from '@rollup/plugin-babel';
 import commonjs from '@rollup/plugin-commonjs';
-import vue from 'rollup-plugin-vue';
 import resolve from '@rollup/plugin-node-resolve';
+import vue from 'rollup-plugin-vue';
+
+const extensions = ['.js', '.vue'];
+
+const plugins = [
+  resolve({ extensions, browser: true }),
+  commonjs({ extensions, exclude: 'src/**' }),
+  vue(),
+  alias({
+    entries: {
+      vue: 'vue/dist/vue.runtime.esm-browser.prod.js',
+    },
+  }),
+  babel({ babelHelpers: 'bundled', exclude: 'node_modules/**' }),
+];
 
 export default [
   // ESM build to be used with webpack/rollup.
@@ -12,12 +27,7 @@ export default [
       name: 'VIntl',
       file: 'dist/v-intl.esm.js',
     },
-    plugins: [
-      babel({ babelHelpers: 'bundled', exclude: 'node_modules/**' }),
-      commonjs(),
-      vue(),
-      resolve(),
-    ],
+    plugins,
   },
   // CommonJS build
   {
@@ -27,12 +37,7 @@ export default [
       name: 'VIntl',
       file: 'dist/v-intl.cjs.js',
     },
-    plugins: [
-      babel({ babelHelpers: 'bundled', exclude: 'node_modules/**' }),
-      commonjs(),
-      vue(),
-      resolve(),
-    ],
+    plugins,
   },
   // UMD build.
   {
@@ -42,11 +47,6 @@ export default [
       name: 'VIntl',
       file: 'dist/v-intl.js',
     },
-    plugins: [
-      babel({ babelHelpers: 'bundled', exclude: 'node_modules/**' }),
-      commonjs(),
-      vue(),
-      resolve(),
-    ],
+    plugins,
   },
 ];
