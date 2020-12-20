@@ -1,3 +1,12 @@
+## [1.0.4](https://github.com/vinayakkulkarni/v-intl/compare/v1.0.3...v1.0.4) (2020-12-20)
+
+
+### Bug Fixes
+
+* use `NPM_AUTH_TOKEN` ([525a27e](https://github.com/vinayakkulkarni/v-intl/commit/525a27e38d825fe10141181e5deec3e75865bc57))
+
+
+
 ## [1.0.3](https://github.com/vinayakkulkarni/v-intl/compare/v1.0.2...v1.0.3) (2020-12-20)
 
 
