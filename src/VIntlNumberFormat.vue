@@ -7,11 +7,12 @@
 <script lang="ts">
   import { computed, defineComponent } from 'vue';
   export default defineComponent({
-    name: 'v-intl-number-format',
+    name: 'VIntlNumberFormat',
     props: {
       wrapper: {
         type: String,
         required: false,
+        default: '',
       },
       payload: {
         type: Number,

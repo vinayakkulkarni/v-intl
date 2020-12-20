@@ -7,7 +7,7 @@
 <script lang="ts">
   import { computed, defineComponent } from 'vue';
   export default defineComponent({
-    name: 'v-intl-date-time-format',
+    name: 'VIntlDateTimeFormat',
     props: {
       wrapper: {
         type: String,

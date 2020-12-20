@@ -7,7 +7,7 @@
 <script lang="ts">
   import { computed, defineComponent } from 'vue';
   export default defineComponent({
-    name: 'v-intl-display-names',
+    name: 'VIntlDisplayNames',
     props: {
       wrapper: {
         type: String,
