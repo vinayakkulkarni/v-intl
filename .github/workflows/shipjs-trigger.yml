@@ -18,6 +18,7 @@ jobs:
       - name: Setup node env 📦
         uses: actions/setup-node@v2.1.5
         with:
+          node-version: 15
           registry-url: "https://registry.npmjs.org"
 
       - name: Restore cached node_modules ⚡️
