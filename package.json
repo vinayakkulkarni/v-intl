@@ -23,6 +23,7 @@
     "lint:prettier": "prettier --check \"{,!(node_modules|dist)/**/}*.{js,vue}\"",
     "lint:prettier:fix": "prettier --write \"{,!(node_modules|dist)/**/}*.{js,vue}\"",
     "release": "shipjs prepare",
+    "test": "echo 'No tests found'",
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs"
   },
