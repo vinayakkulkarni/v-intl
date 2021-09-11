@@ -46,7 +46,7 @@
     "eslint": "^7.16.0",
     "eslint-config-prettier": "^8.1.0",
     "eslint-config-vue": "^2.0.2",
-    "eslint-plugin-prettier": "^3.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-vue": "^7.3.0",
     "husky": "^4.3.6",
     "prettier": "^2.2.1",
