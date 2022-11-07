@@ -1,3 +1,65 @@
+# [2.0.0](https://github.com/vinayakkulkarni/v-intl/compare/v1.0.4...v2.0.0) (2022-11-07)
+
+
+### Bug Fixes
+
+* add test ([bbbf3ad](https://github.com/vinayakkulkarni/v-intl/commit/bbbf3ad512c5ddd0980834bb876c8936ab5e74a2))
+* breaking change caused by `eslint-config-prettier` ([e257ceb](https://github.com/vinayakkulkarni/v-intl/commit/e257ceb1056e6a0b8acddfc6adf55cdc5f5fb19b))
+* **deps:** bump actions/cache from 2.1.5 to 2.1.6 ([29073aa](https://github.com/vinayakkulkarni/v-intl/commit/29073aa1d1ff89dc6b7c90bd9d2656994be1c2ef))
+* **deps:** bump actions/cache from 2.1.6 to 2.1.7 ([eb517ef](https://github.com/vinayakkulkarni/v-intl/commit/eb517ef5a5e62ec56ddaa20f0bcf3528ec0f6359))
+* **deps:** bump actions/cache from v2 to v2.1.4 ([21be8ab](https://github.com/vinayakkulkarni/v-intl/commit/21be8ab103252877203d7d5220695abeb63a74dd))
+* **deps:** bump actions/cache from v2.1.4 to v2.1.5 ([50ddba0](https://github.com/vinayakkulkarni/v-intl/commit/50ddba09ab33f7097702e2cac785c5ff26353a92))
+* **deps:** bump actions/setup-node from 2.1.5 to 3 ([b8054e5](https://github.com/vinayakkulkarni/v-intl/commit/b8054e54d4c62388927d70b30916c3859756bb2f))
+* **deps:** bump actions/setup-node from v2.1.4 to v2.1.5 ([cbf3b73](https://github.com/vinayakkulkarni/v-intl/commit/cbf3b73e1cfbdb34e310bfe25bb167ce0deebf81))
+* **deps:** bump async from 2.6.3 to 2.6.4 ([33a6d9a](https://github.com/vinayakkulkarni/v-intl/commit/33a6d9a1b338555c932d902b936a1610faffd6f4))
+* **deps:** bump axios from 0.21.1 to 0.21.4 ([f2aad1d](https://github.com/vinayakkulkarni/v-intl/commit/f2aad1dd2fbf5526e10ad623a713fb804384fa18))
+* **deps:** bump browserslist from 4.16.0 to 4.16.6 ([efb9d01](https://github.com/vinayakkulkarni/v-intl/commit/efb9d01305573524b0d0fc6e1a2f90ecd0200b94))
+* **deps:** bump color-string from 1.5.4 to 1.6.0 ([9d9e022](https://github.com/vinayakkulkarni/v-intl/commit/9d9e0220a6bcfec83244a4672b4bba25cc8d33b2))
+* **deps:** bump dns-packet from 1.3.1 to 1.3.4 ([db06a2d](https://github.com/vinayakkulkarni/v-intl/commit/db06a2d99b6e6e4d2febd50afe47b432f4cdacc4))
+* **deps:** bump ejs from 3.1.6 to 3.1.7 ([956390a](https://github.com/vinayakkulkarni/v-intl/commit/956390a166cb955d2430d2d3848c2ea369d3dd6a))
+* **deps:** bump follow-redirects from 1.14.7 to 1.14.8 ([064bd9f](https://github.com/vinayakkulkarni/v-intl/commit/064bd9f87cbb60fa6dc9ab6370f5ead1e47cb783))
+* **deps:** bump follow-redirects from 1.5.10 to 1.14.7 ([be66ecd](https://github.com/vinayakkulkarni/v-intl/commit/be66ecd2be8ee7e56c21bef2d634b4bd353e805c))
+* **deps:** bump hosted-git-info from 2.8.8 to 2.8.9 ([d3d0b3f](https://github.com/vinayakkulkarni/v-intl/commit/d3d0b3f6420bb7e658d8327a919ce1bf3b5e637c))
+* **deps:** bump lodash from 4.17.20 to 4.17.21 ([39b6b5f](https://github.com/vinayakkulkarni/v-intl/commit/39b6b5f76cf26e20acffac33186cea5ae4bdf1c0))
+* **deps:** bump minimist from 1.2.5 to 1.2.6 ([b382b07](https://github.com/vinayakkulkarni/v-intl/commit/b382b0762e0d2ed1d89a2e297dfefe21c9acf077))
+* **deps:** bump nanoid from 3.1.29 to 3.2.0 ([691db0a](https://github.com/vinayakkulkarni/v-intl/commit/691db0a9c7a358b4decb637d5d651ace9438add7))
+* **deps:** bump node-fetch from 2.6.6 to 2.6.7 ([8ea1eea](https://github.com/vinayakkulkarni/v-intl/commit/8ea1eea305691de085c3dd52f8c26ea4efd3afd0))
+* **deps:** bump path-parse from 1.0.6 to 1.0.7 ([62c249e](https://github.com/vinayakkulkarni/v-intl/commit/62c249e27662e3a3df749ba247cd183e48a1f9e6))
+* **deps:** bump postcss from 7.0.35 to 7.0.36 ([ed2c908](https://github.com/vinayakkulkarni/v-intl/commit/ed2c908f5354154632f392d6f3095100fe70181d))
+* **deps:** bump prismjs from 1.23.0 to 1.24.1 ([8471053](https://github.com/vinayakkulkarni/v-intl/commit/8471053b38ecd3ebe0cd847f2433b7f00a2d8571))
+* **deps:** bump prismjs from 1.24.1 to 1.25.0 ([093acdb](https://github.com/vinayakkulkarni/v-intl/commit/093acdbcc163c49a0cbe252a748e2347d09855f7))
+* **deps:** bump prismjs from 1.26.0 to 1.27.0 ([75f5a82](https://github.com/vinayakkulkarni/v-intl/commit/75f5a82b254651ebfd98d408683ed2e29e2a0048))
+* **deps:** bump semver-regex from 3.1.2 to 3.1.3 ([ce9b7d8](https://github.com/vinayakkulkarni/v-intl/commit/ce9b7d8a6aa7fe3dd2f18883e2eea43880c9db6b))
+* **deps:** bump semver-regex from 3.1.3 to 3.1.4 ([93eca00](https://github.com/vinayakkulkarni/v-intl/commit/93eca00be63362fbf60f355e89aace7ab750f903))
+* **deps:** bump ssri from 6.0.1 to 6.0.2 ([66b1f2f](https://github.com/vinayakkulkarni/v-intl/commit/66b1f2fabdacb5ca965a096baab7e5ae845931ed))
+* **deps:** bump trim-newlines from 3.0.0 to 3.0.1 ([2055627](https://github.com/vinayakkulkarni/v-intl/commit/20556279e5f667fb74ccacf9d56f93b34c77770f))
+* **deps:** bump url-parse from 1.5.1 to 1.5.3 ([b7cb376](https://github.com/vinayakkulkarni/v-intl/commit/b7cb3763cc1ebc1995ce95093cc51ab03b52085a))
+* **deps:** bump url-parse from 1.5.6 to 1.5.10 ([4672cbc](https://github.com/vinayakkulkarni/v-intl/commit/4672cbc37125664c09e78f514ca924dd824bcaec))
+* **deps:** bump ws from 6.2.1 to 6.2.2 ([a2161c0](https://github.com/vinayakkulkarni/v-intl/commit/a2161c0a40ed4c316f22308385f4ede772b1b728))
+* **deps:** update package file ([b3ee5e4](https://github.com/vinayakkulkarni/v-intl/commit/b3ee5e471719f8a4322c014f68a1815a8994c708))
+* remove jsconfig ([aa1267b](https://github.com/vinayakkulkarni/v-intl/commit/aa1267bbe8064c265a6f2db14527072ebd9bf5b3))
+* remove old husky config 👷‍♂️ ([55074ec](https://github.com/vinayakkulkarni/v-intl/commit/55074ecd2abdc08a60904782ac851767c43688d1))
+* update `.env.example` ([9c25faa](https://github.com/vinayakkulkarni/v-intl/commit/9c25faa3893c23fb022f9b7b97bcfe1007cfc1bd))
+* update `package.json` ([61d7de4](https://github.com/vinayakkulkarni/v-intl/commit/61d7de4fdd5a7e187ee04da4be579b72877a0f64))
+* update mail address in CoC 👷‍♂️ ([3b75788](https://github.com/vinayakkulkarni/v-intl/commit/3b757880c130cb8d397a98d0f99c19616aa7ea1c))
+
+
+### Features
+
+* add `.nvmrc` ([f64bdcd](https://github.com/vinayakkulkarni/v-intl/commit/f64bdcd17d0946adb99ad0f7ac291552c317a3ff))
+* add `.vscode` config(s) 🎉 ([21b223d](https://github.com/vinayakkulkarni/v-intl/commit/21b223d90d60ed1673d40d9c0bd6ac3ee2a2b222))
+* add tsconfig ([291e301](https://github.com/vinayakkulkarni/v-intl/commit/291e30160db794f99ed98ccc956b2465de7ddaa7))
+* add vite config file 🕺 ([800a51e](https://github.com/vinayakkulkarni/v-intl/commit/800a51e0c530e297f3bf65452c938a5ea4a19569))
+* update github config(s) 🎢 ([66b376f](https://github.com/vinayakkulkarni/v-intl/commit/66b376fca4cc31ba3ef791715512631d43b06ec2))
+* use `cjs` ([8d01f5c](https://github.com/vinayakkulkarni/v-intl/commit/8d01f5c6334545e62042c6a1c36a97d1a19fdd0e))
+
+
+### Performance Improvements
+
+* **ci:** use npm 15 to build CI & ship.js trigger workflows ([2ace8a7](https://github.com/vinayakkulkarni/v-intl/commit/2ace8a740615eaec7cfb280bd33faf152c4d0695))
+
+
+
 ## [1.0.4](https://github.com/vinayakkulkarni/v-intl/compare/v1.0.3...v1.0.4) (2020-12-20)
 
 
