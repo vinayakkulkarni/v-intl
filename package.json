@@ -14,6 +14,9 @@
       "require": "./dist/v-github-icon.umd.cjs"
     }
   },
+  "files": [
+    "dist"
+  ],
   "types": "./dist/index.d.ts",
   "type": "module",
   "scripts": {
@@ -69,24 +72,28 @@
     "vue": "^3.2.41",
     "vue-tsc": "^1.0.9"
   },
-  "license": "MIT",
-  "sideEffects": false,
-  "files": [
-    "dist"
+  "keywords": [
+    "v-intl",
+    "internationalization",
+    "vue",
+    "intl",
+    "vue intl"
   ],
-  "private": false,
-  "publishConfig": {
-    "access": "public",
-    "registry": "https://registry.npmjs.org"
-  },
   "author": {
     "name": "Vinayak Kulkarni",
     "email": "inbox.vinayak@gmail.com",
     "url": "https://vinayakkulkarni.dev"
   },
+  "license": "MIT",
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=8.19.2"
+  },
+  "private": false,
+  "sideEffects": false,
   "repository": {
-    "url": "git+https://github.com/vinayakkulkarni/v-intl",
-    "type": "git"
+    "type": "git",
+    "url": "git+https://github.com/vinayakkulkarni/v-intl.git"
   },
   "bugs": {
     "url": "https://github.com/vinayakkulkarni/v-intl/issues"
