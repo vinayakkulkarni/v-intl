@@ -41,13 +41,13 @@
         }),
       },
     },
-    setup({ payload, format }) {
+    setup(props) {
       const intlDisplayNames = computed(() => {
         const intlNames = new Intl.DisplayNames(
-          [format.locales],
-          format.options,
+          [props.format.locales],
+          props.format.options,
         );
-        return intlNames.of(payload);
+        return intlNames.of(props.payload);
       });
       return {
         intlDisplayNames,

@@ -1,13 +1,13 @@
 <template>
   <div :class="wrapper">
-    {{ intlNumberFormat }}
+    {{ intlRelativeTimeFormat }}
   </div>
 </template>
 
 <script lang="ts">
   import { computed, defineComponent } from 'vue';
   export default defineComponent({
-    name: 'VIntlNumberFormat',
+    name: 'VIntlRelativeTimeFormat',
     props: {
       wrapper: {
         type: String,
@@ -15,8 +15,12 @@
         default: '',
       },
       payload: {
-        type: Number,
+        type: Object,
         required: true,
+        default: () => ({
+          number: 1,
+          time: 'days',
+        }),
       },
       format: {
         type: Object,
@@ -28,32 +32,22 @@
            */
           locales: 'en-US',
           /**
-           * Has to be a object with NumberFormat options
-           * read more: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/NumberFormat
+           * Has to be a object with DateTimeFormat options
+           * read more: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/RelativeTimeFormat/RelativeTimeFormat
            */
           options: {},
         }),
       },
-      toParts: {
-        type: Boolean,
-        required: false,
-        default: false,
-      },
     },
-    setup({ payload, format, toParts }) {
-      const intlNumberFormat = computed(() => {
-        if (toParts) {
-          return new Intl.NumberFormat(
-            format.locales,
-            format.options,
-          ).formatToParts(payload);
-        }
-        return new Intl.NumberFormat(format.locales, format.options).format(
-          payload,
-        );
+    setup(props) {
+      const intlRelativeTimeFormat = computed(() => {
+        return new Intl.RelativeTimeFormat(
+          props.format.locales,
+          props.format.options,
+        ).format(props.payload.number, props.payload.time);
       });
       return {
-        intlNumberFormat,
+        intlRelativeTimeFormat,
       };
     },
   });

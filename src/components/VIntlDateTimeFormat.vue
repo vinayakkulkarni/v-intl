@@ -6,6 +6,8 @@
 
 <script lang="ts">
   import { computed, defineComponent } from 'vue';
+  import type { PropType } from 'vue';
+
   export default defineComponent({
     name: 'VIntlDateTimeFormat',
     props: {
@@ -15,10 +17,7 @@
         default: '',
       },
       payload: {
-        /**
-         * The payload from output of new Date()
-         */
-        type: Object,
+        type: Object as PropType<number | Date | undefined>,
         required: true,
       },
       format: {
@@ -43,17 +42,18 @@
         default: false,
       },
     },
-    setup({ payload, format, toParts }) {
+    setup(props) {
       const intlDateTime = computed(() => {
-        if (toParts) {
+        if (props.toParts) {
           return new Intl.DateTimeFormat(
-            format.locales,
-            format.options,
-          ).formatToParts(payload);
+            props.format.locales,
+            props.format.options,
+          ).formatToParts(props.payload);
         }
-        return new Intl.DateTimeFormat(format.locales, format.options).format(
-          payload,
-        );
+        return new Intl.DateTimeFormat(
+          props.format.locales,
+          props.format.options,
+        ).format(props.payload);
       });
       return {
         intlDateTime,

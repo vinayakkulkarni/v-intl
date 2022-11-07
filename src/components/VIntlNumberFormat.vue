@@ -1,13 +1,13 @@
 <template>
   <div :class="wrapper">
-    {{ intlListFormat }}
+    {{ intlNumberFormat }}
   </div>
 </template>
 
 <script lang="ts">
   import { computed, defineComponent } from 'vue';
   export default defineComponent({
-    name: 'VIntlListFormat',
+    name: 'VIntlNumberFormat',
     props: {
       wrapper: {
         type: String,
@@ -15,12 +15,12 @@
         default: '',
       },
       payload: {
-        type: Array,
+        type: Number,
         required: true,
       },
       format: {
         type: Object,
-        required: true,
+        required: false,
         default: () => ({
           /**
            * Can be string or array with fallback
@@ -28,8 +28,8 @@
            */
           locales: 'en-US',
           /**
-           * Has to be a object with ListFormat options
-           * read more: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/ListFormat
+           * Has to be a object with NumberFormat options
+           * read more: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/NumberFormat
            */
           options: {},
         }),
@@ -40,20 +40,21 @@
         default: false,
       },
     },
-    setup({ payload, format, toParts }) {
-      const intlListFormat = computed(() => {
-        if (toParts) {
-          return new Intl.ListFormat(
-            format.locales,
-            format.options,
-          ).formatToParts(payload);
+    setup(props) {
+      const intlNumberFormat = computed(() => {
+        if (props.toParts) {
+          return new Intl.NumberFormat(
+            props.format.locales,
+            props.format.options,
+          ).formatToParts(props.payload);
         }
-        return new Intl.ListFormat(format.locales, format.options).format(
-          payload,
-        );
+        return new Intl.NumberFormat(
+          props.format.locales,
+          props.format.options,
+        ).format(props.payload);
       });
       return {
-        intlListFormat,
+        intlNumberFormat,
       };
     },
   });
