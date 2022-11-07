@@ -5,12 +5,12 @@ description: 'Date & time Intl formatter for your Vue apps'
 
 # Date & time formatting 🧪
 
-The [`Intl.DateTimeFormat`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/DateTimeFormat) object is a constructor for objects that enable language-sensitive date and time formatting. 
-
+The [`Intl.DateTimeFormat`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/DateTimeFormat) object is a constructor for objects that enable language-sensitive date and time formatting.
 
 ## Usage examples
 
 ### Get Region Names in English
+
 ```vue
 <template>
   <!-- output will be: "'12/20/2012'" -->
@@ -58,6 +58,7 @@ The [`Intl.DateTimeFormat`](https://developer.mozilla.org/en-US/docs/Web/JavaScr
 ```
 
 ### Using `format.options`
+
 ```vue
 <template>
   <!-- output will be: "'Donnerstag, 20. Dezember 2012'" -->
@@ -84,8 +85,8 @@ The [`Intl.DateTimeFormat`](https://developer.mozilla.org/en-US/docs/Web/JavaScr
             year: 'numeric',
             month: 'long',
             day: 'numeric',
-          }
-        }
+          },
+        },
       };
     },
   };
@@ -93,6 +94,7 @@ The [`Intl.DateTimeFormat`](https://developer.mozilla.org/en-US/docs/Web/JavaScr
 ```
 
 ### UTC visible example
+
 ```vue
 <template>
   <!-- output will be: "'Thursday, December 20, 2012, GMT'" -->
@@ -120,9 +122,9 @@ The [`Intl.DateTimeFormat`](https://developer.mozilla.org/en-US/docs/Web/JavaScr
             month: 'long',
             day: 'numeric',
             timeZone: 'UTC',
-            timeZoneName: 'short'
-          }
-        }
+            timeZoneName: 'short',
+          },
+        },
       };
     },
   };
@@ -130,6 +132,7 @@ The [`Intl.DateTimeFormat`](https://developer.mozilla.org/en-US/docs/Web/JavaScr
 ```
 
 ### More precision
+
 ```vue
 <template>
   <!-- output will be: "'2:00:00 pm AEDT'" -->
@@ -154,9 +157,9 @@ The [`Intl.DateTimeFormat`](https://developer.mozilla.org/en-US/docs/Web/JavaScr
           options: {
             hour: 'numeric',
             minute: 'numeric',
-            second: 'numeric', 
+            second: 'numeric',
             timeZone: 'Australia/Sydney',
-            timeZoneName: 'short'
+            timeZoneName: 'short',
           },
         },
       };
@@ -166,6 +169,7 @@ The [`Intl.DateTimeFormat`](https://developer.mozilla.org/en-US/docs/Web/JavaScr
 ```
 
 ### Period of the day
+
 ```vue
 <template>
   <!-- output will be: "'10 at night'" -->
@@ -188,8 +192,8 @@ The [`Intl.DateTimeFormat`](https://developer.mozilla.org/en-US/docs/Web/JavaScr
         format: {
           locales: 'en-US',
           options: {
-            hour: "numeric",
-            dayPeriod: "short"
+            hour: 'numeric',
+            dayPeriod: 'short',
           },
         },
       };

@@ -10,6 +10,7 @@ This package enable language-sensitive number formatting using [`Intl.NumberForm
 ## Usage example
 
 ### Currency
+
 ```vue
 <template>
   <!-- output will be: "123.456,79 €" -->
@@ -31,11 +32,11 @@ This package enable language-sensitive number formatting using [`Intl.NumberForm
         payload: 123456.789,
         formatOptions: {
           locales: 'de-DE', // any valid locale in https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl#Locale_identification_and_negotiation
-          options: { 
+          options: {
             style: 'currency',
-            currency: 'EUR'
-          }
-        }
+            currency: 'EUR',
+          },
+        },
       };
     },
   };
@@ -43,6 +44,7 @@ This package enable language-sensitive number formatting using [`Intl.NumberForm
 ```
 
 ### Limit to three significant digits
+
 ```vue
 <template>
   <!-- output will be: "1,23,000" -->
@@ -66,8 +68,8 @@ This package enable language-sensitive number formatting using [`Intl.NumberForm
           locales: 'en-IN', // any valid locale in https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl#Locale_identification_and_negotiation
           options: {
             maximumSignificantDigits: 3,
-          }
-        }
+          },
+        },
       };
     },
   };
@@ -75,6 +77,7 @@ This package enable language-sensitive number formatting using [`Intl.NumberForm
 ```
 
 ### Using style as unit
+
 ```vue
 <template>
   <!-- output will be: "50 mi/h" -->
@@ -98,9 +101,9 @@ This package enable language-sensitive number formatting using [`Intl.NumberForm
           locales: 'pt-PT', // any valid locale in https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl#Locale_identification_and_negotiation
           options: {
             style: 'unit',
-            unit: "mile-per-hour"
-          }
-        }
+            unit: 'mile-per-hour',
+          },
+        },
       };
     },
   };
@@ -108,38 +111,24 @@ This package enable language-sensitive number formatting using [`Intl.NumberForm
 ```
 
 ### Using notation
+
 ```vue
 <template>
   <!-- output will be: "9,877E8" -->
-  <v-intl-number-format
-    wrapper="w-full"
-    :payload="987654321"
-    :format="{ 'pt-PT', { notation: "scientific" } }"
-  />
+  <v-intl-number-format wrapper="w-full" :payload="987654321" :format="{
+  'pt-PT', { notation: "scientific" } }" />
   <!-- output will be: "987.654E6" -->
-  <v-intl-number-format
-    wrapper="w-full"
-    :payload="987654321"
-    :format="{ 'en-GB', { notation: "engineering" } }"
-  />
+  <v-intl-number-format wrapper="w-full" :payload="987654321" :format="{
+  'en-GB', { notation: "engineering" } }" />
   <!-- output will be: "9.9亿" -->
-  <v-intl-number-format
-    wrapper="w-full"
-    :payload="987654321"
-    :format="{ 'zh-CN', { notation: "compact" } }"
-  />
+  <v-intl-number-format wrapper="w-full" :payload="987654321" :format="{
+  'zh-CN', { notation: "compact" } }" />
   <!-- output will be: "988M" -->
-  <v-intl-number-format
-    wrapper="w-full"
-    :payload="987654321"
-    :format="{ 'fr', { notation: "compact" , compactDisplay: "long" } }"
-  />
+  <v-intl-number-format wrapper="w-full" :payload="987654321" :format="{ 'fr', {
+  notation: "compact" , compactDisplay: "long" } }" />
   <!-- output will be: "9.9亿" -->
-  <v-intl-number-format
-    wrapper="w-full"
-    :payload="987654321"
-    :format="{ 'en-GB', { notation: "compact" , compactDisplay: "short" } }"
-  />
+  <v-intl-number-format wrapper="w-full" :payload="987654321" :format="{
+  'en-GB', { notation: "compact" , compactDisplay: "short" } }" />
 </template>
 <script>
   import { VIntlNumberFormat } from '@vinayakkulkarni/v-intl';

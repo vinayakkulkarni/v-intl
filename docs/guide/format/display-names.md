@@ -7,10 +7,10 @@ description: 'Display names Intl formatter for your Vue apps'
 
 The new [`Intl.DisplayNames`](https://v8.dev/features/intl-displaynames) API gives JavaScript developers direct access to those translations, allowing applications to more easily display localized names.
 
-
 ## Usage examples
 
 ### Get Region Names in English
+
 ```vue
 <template>
   <!-- output will be: "'United States'" -->
@@ -43,8 +43,8 @@ The new [`Intl.DisplayNames`](https://v8.dev/features/intl-displaynames) API giv
       return {
         formatOptions: {
           locales: 'en',
-          options: { type: 'region' }
-        }
+          options: { type: 'region' },
+        },
       };
     },
   };
@@ -52,6 +52,7 @@ The new [`Intl.DisplayNames`](https://v8.dev/features/intl-displaynames) API giv
 ```
 
 ### Get Language Names in Traditional Chinese
+
 ```vue
 <template>
   <!-- output will be: "'法文'" -->
@@ -84,8 +85,8 @@ The new [`Intl.DisplayNames`](https://v8.dev/features/intl-displaynames) API giv
       return {
         formatOptions: {
           locales: 'zh-Hant',
-          options: { type: 'language' }
-        }
+          options: { type: 'language' },
+        },
       };
     },
   };
@@ -93,6 +94,7 @@ The new [`Intl.DisplayNames`](https://v8.dev/features/intl-displaynames) API giv
 ```
 
 ### Get currency names in Simplified Chinese
+
 ```vue
 <template>
   <!-- output will be: "'美元'" -->
@@ -131,8 +133,8 @@ The new [`Intl.DisplayNames`](https://v8.dev/features/intl-displaynames) API giv
       return {
         formatOptions: {
           locales: 'zh-Hans',
-          options: { type: 'currency' }
-        }
+          options: { type: 'currency' },
+        },
       };
     },
   };
@@ -140,6 +142,7 @@ The new [`Intl.DisplayNames`](https://v8.dev/features/intl-displaynames) API giv
 ```
 
 ### Get the final supported type, scripts, in English
+
 ```vue
 <template>
   <!-- output will be: "'Latin'" -->
@@ -172,8 +175,8 @@ The new [`Intl.DisplayNames`](https://v8.dev/features/intl-displaynames) API giv
       return {
         formatOptions: {
           locales: 'en',
-          options: { type: 'script' }
-        }
+          options: { type: 'script' },
+        },
       };
     },
   };
@@ -181,6 +184,7 @@ The new [`Intl.DisplayNames`](https://v8.dev/features/intl-displaynames) API giv
 ```
 
 ### Example using formatOptions.options.style
+
 ```vue
 <template>
   <!-- output will be: "'American English'" -->
@@ -201,8 +205,8 @@ The new [`Intl.DisplayNames`](https://v8.dev/features/intl-displaynames) API giv
       return {
         formatOptions: {
           locales: 'en',
-          options: { type: 'language' }
-        }
+          options: { type: 'language' },
+        },
       };
     },
   };
@@ -229,8 +233,8 @@ The new [`Intl.DisplayNames`](https://v8.dev/features/intl-displaynames) API giv
       return {
         formatOptions: {
           locales: 'en',
-          options: { type: 'language', style: 'short' }
-        }
+          options: { type: 'language', style: 'short' },
+        },
       };
     },
   };
@@ -257,8 +261,8 @@ The new [`Intl.DisplayNames`](https://v8.dev/features/intl-displaynames) API giv
       return {
         formatOptions: {
           locales: 'en',
-          options: { type: 'language', style: 'narrow' }
-        }
+          options: { type: 'language', style: 'narrow' },
+        },
       };
     },
   };

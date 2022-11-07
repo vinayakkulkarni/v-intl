@@ -10,6 +10,7 @@ This package enable language-sensitive list formatting using [`Intl.ListFormat`]
 ## Usage example
 
 ### `conjunction`
+
 ```vue
 <template>
   <!-- output will be: "Motorcycle, Bus, and Car" -->
@@ -31,11 +32,11 @@ This package enable language-sensitive list formatting using [`Intl.ListFormat`]
         payload: ['Motorcycle', 'Bus', 'Car'],
         formatOptions: {
           locales: 'en', // any valid locale in https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl#Locale_identification_and_negotiation
-          options: { 
+          options: {
             style: 'long',
-            type: 'conjunction' 
-          }
-        }
+            type: 'conjunction',
+          },
+        },
       };
     },
   };
@@ -43,6 +44,7 @@ This package enable language-sensitive list formatting using [`Intl.ListFormat`]
 ```
 
 ### `disjunction`
+
 ```vue
 <template>
   <!-- output will be: "Motorcycle, Bus or Car" -->
@@ -64,11 +66,11 @@ This package enable language-sensitive list formatting using [`Intl.ListFormat`]
         payload: ['Motorcycle', 'Bus', 'Car'],
         formatOptions: {
           locales: 'en-GB', // any valid locale in https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl#Locale_identification_and_negotiation
-          options: { 
+          options: {
             style: 'short',
-            type: 'disjunction' 
-          }
-        }
+            type: 'disjunction',
+          },
+        },
       };
     },
   };
@@ -76,6 +78,7 @@ This package enable language-sensitive list formatting using [`Intl.ListFormat`]
 ```
 
 ### `unit`
+
 ```vue
 <template>
   <!-- output will be: "Motorcycle Bus Car" -->
@@ -97,11 +100,11 @@ This package enable language-sensitive list formatting using [`Intl.ListFormat`]
         payload: ['Motorcycle', 'Bus', 'Car'],
         formatOptions: {
           locales: 'en-GB', // any valid locale in https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl#Locale_identification_and_negotiation
-          options: { 
+          options: {
             style: 'narrow',
-            type: 'unit' 
-          }
-        }
+            type: 'unit',
+          },
+        },
       };
     },
   };
@@ -109,6 +112,7 @@ This package enable language-sensitive list formatting using [`Intl.ListFormat`]
 ```
 
 ### formatToParts
+
 ```vue
 <template>
   <!-- output will be:
@@ -139,11 +143,11 @@ This package enable language-sensitive list formatting using [`Intl.ListFormat`]
         payload: ['Motorcycle', 'Bus', 'Car'],
         formatOptions: {
           locales: 'en', // any valid locale in https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl#Locale_identification_and_negotiation
-          options: { 
+          options: {
             style: 'long',
-            type: 'conjunction' 
-          }
-        }
+            type: 'conjunction',
+          },
+        },
       };
     },
   };

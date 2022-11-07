@@ -37,8 +37,8 @@ Relative time formatting using this plugin is basically wrapper for [`Intl.Relat
             localeMatcher: 'best fit', // other values: "lookup"
             numeric: 'always', // other values: "auto"
             style: 'long', // other values: "short" or "narrow"
-          }
-        }
+          },
+        },
       };
     },
   };
