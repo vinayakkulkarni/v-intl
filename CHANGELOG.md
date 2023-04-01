@@ -1,3 +1,12 @@
+# [2.2.0](https://github.com/vinayakkulkarni/v-intl/compare/v2.1.0...v2.2.0) (2023-04-01)
+
+
+### Features
+
+* **vite:** bump vite to v4.x 🕺 ([e5e471a](https://github.com/vinayakkulkarni/v-intl/commit/e5e471a91d7d6b51d8cc294a44d6368fbd533ede))
+
+
+
 # [2.1.0](https://github.com/vinayakkulkarni/v-intl/compare/v2.0.0...v2.1.0) (2023-04-01)
 
 
