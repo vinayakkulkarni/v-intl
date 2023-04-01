@@ -1,3 +1,21 @@
+# [2.1.0](https://github.com/vinayakkulkarni/v-intl/compare/v2.0.0...v2.1.0) (2023-04-01)
+
+
+### Bug Fixes
+
+* **deps:** bump actions/stale from 6 to 7 ([36a0abb](https://github.com/vinayakkulkarni/v-intl/commit/36a0abbaeae9d9bf24e708c0e3e7d88516c9897a))
+* **deps:** bump actions/stale from 7 to 8 ([498c8b9](https://github.com/vinayakkulkarni/v-intl/commit/498c8b92c1a5e45fa08b391f9f8e9a0e27d0889b))
+* **deps:** bump amannn/action-semantic-pull-request from 5.0.2 to 5.1.0 ([9a44300](https://github.com/vinayakkulkarni/v-intl/commit/9a443006e3be642215596181ee285ca7c5b1467f))
+* **deps:** bump amannn/action-semantic-pull-request from 5.1.0 to 5.2.0 ([dc501f3](https://github.com/vinayakkulkarni/v-intl/commit/dc501f347f289474954d329e2e28b4a75ad86792))
+* **shipjs:** setup git actor in shipjs ([5a6be08](https://github.com/vinayakkulkarni/v-intl/commit/5a6be087c5185769c96eb210dac10e8a8524bfe5))
+
+
+### Features
+
+* add `automerger` workflow 🎉 ([b24fd45](https://github.com/vinayakkulkarni/v-intl/commit/b24fd45bf7a582f9b5c35b91c2446f02b7da3b49))
+
+
+
 # [2.0.0](https://github.com/vinayakkulkarni/v-intl/compare/v1.0.4...v2.0.0) (2022-11-07)
 
 
