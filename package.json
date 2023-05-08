@@ -49,7 +49,7 @@
     "@vitejs/plugin-vue": "^4.2.1",
     "@vue/runtime-dom": "^3.2.45",
     "@vue/test-utils": "^2.3.2",
-    "eslint": "^8.39.0",
+    "eslint": "^8.40.0",
     "eslint-config-prettier": "^8.8.0",
     "eslint-plugin-jsdoc": "^43.1.1",
     "eslint-plugin-prettier": "^4.2.1",
