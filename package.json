@@ -40,7 +40,7 @@
     "docs:serve": "vitepress serve docs"
   },
   "devDependencies": {
-    "@commitlint/cli": "^17.8.0",
+    "@commitlint/cli": "^18.2.0",
     "@commitlint/config-conventional": "^17.8.0",
     "@types/node": "^20.9.0",
     "@typescript-eslint/eslint-plugin": "^5.61.0",
