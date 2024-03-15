@@ -68,7 +68,7 @@
     "typescript": "^5.4.2",
     "vite": "^5.1.6",
     "vitepress": "^1.0.0-rc.45",
-    "vue": "^3.3.4",
+    "vue": "^3.4.21",
     "vue-tsc": "^1.8.27"
   },
   "keywords": [
