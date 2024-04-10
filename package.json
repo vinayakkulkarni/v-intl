@@ -67,7 +67,7 @@
     "stylelint-prettier": "^3.0.0",
     "typescript": "^5.4.4",
     "vite": "^5.2.8",
-    "vitepress": "^1.0.2",
+    "vitepress": "^1.1.0",
     "vue": "^3.4.21",
     "vue-tsc": "^2.0.11"
   },
