@@ -15,6 +15,7 @@ export default defineConfig({
           { text: 'Format Date & Time', link: '/guide/format/date-time' },
           { text: 'Format Relative Time', link: '/guide/format/relative-time' },
           { text: 'Format Display Names', link: '/guide/format/display-names' },
+          { text: 'Format Duration', link: '/guide/format/duration' },
         ],
       },
     ],
