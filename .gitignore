@@ -107,4 +107,4 @@ dist
 sw.*
 
 .temp
-.cache
+cache
