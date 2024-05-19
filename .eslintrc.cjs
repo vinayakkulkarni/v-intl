@@ -23,7 +23,6 @@ module.exports = {
     'plugin:vue/vue3-recommended',
     'plugin:security/recommended',
     'plugin:prettier/recommended',
-    'plugin:storybook/recommended',
     'prettier',
   ],
   rules: {
