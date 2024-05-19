@@ -42,6 +42,7 @@ The package exposes 5 `Intl` components, viz.,
 | [VIntlDateTimeFormat](https://v-intl.netlify.app/guide/format/date-time.html)         | _Formats the Date & Time._                              | [Read More](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/DateTimeFormat)                        |
 | [VIntlRelativeTimeFormat](https://v-intl.netlify.app/guide/format/relative-time.html) | _Create a relative time formatter in specified locale._ | [Read More](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/RelativeTimeFormat/RelativeTimeFormat) |
 | [VIntlDisplayNames](https://v-intl.netlify.app/guide/format/display-names.html)       | _Translates region, language, currency, script._        | [Read More](https://v8.dev/features/intl-displaynames#full-api)                                                                          |
+| [VIntlDurationFormat](https://v-intl.netlify.app/guide/format/duration.html)          | _Enables language-sensitive duration formatting._       | [Read More](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/DurationFormat)                        |
 
 They're are tree-shakable, meaning, you don't need to bulk up your bundle by including all the components.
 I've tried to keep the API as consistent as possible.
