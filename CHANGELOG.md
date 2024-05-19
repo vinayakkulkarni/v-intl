@@ -1,3 +1,33 @@
+# [2.3.0](https://github.com/vinayakkulkarni/v-intl/compare/v2.2.0...v2.3.0) (2024-05-19)
+
+
+### Bug Fixes
+
+* **deps:** bump actions/setup-node from 3 to 4 ([3298a4a](https://github.com/vinayakkulkarni/v-intl/commit/3298a4ac3fa6bc807e2f2ecbcd9b158c63f503df))
+* **deps:** bump actions/stale from 8 to 9 ([b5259b6](https://github.com/vinayakkulkarni/v-intl/commit/b5259b6f6aabe5b468b0086e2743e89e045a2d9f))
+* **deps:** bump amannn/action-semantic-pull-request from 5.2.0 to 5.3.0 ([116c1b5](https://github.com/vinayakkulkarni/v-intl/commit/116c1b5031d07e4a13d8fd2270f86eb91ef724fe))
+* **deps:** bump amannn/action-semantic-pull-request from 5.3.0 to 5.4.0 ([7b97c9b](https://github.com/vinayakkulkarni/v-intl/commit/7b97c9bcf7d80320c6fc9c619f685aa025728866))
+* **deps:** bump amannn/action-semantic-pull-request from 5.4.0 to 5.5.0 ([cbc63c9](https://github.com/vinayakkulkarni/v-intl/commit/cbc63c9481e7e37233230a5104c9c80e4bd7648f))
+* **deps:** bump amannn/action-semantic-pull-request from 5.5.0 to 5.5.2 ([a484989](https://github.com/vinayakkulkarni/v-intl/commit/a484989a95920d9ee6034efd2bc98e9b82398d36))
+* **deps:** bump dependabot/fetch-metadata from 1.3.6 to 1.4.0 ([d5f0a75](https://github.com/vinayakkulkarni/v-intl/commit/d5f0a75c2226020c93e96202b6b58d3d8bcc7f9f))
+* **deps:** bump dependabot/fetch-metadata from 1.4.0 to 1.5.0 ([2a4928f](https://github.com/vinayakkulkarni/v-intl/commit/2a4928f7bb4dcdee771298d309c78819b4993e82))
+* **deps:** bump dependabot/fetch-metadata from 1.5.0 to 1.5.1 ([c1a8f3e](https://github.com/vinayakkulkarni/v-intl/commit/c1a8f3e4c32c49a75b2632fdc390f0608450dbe5))
+* **deps:** bump dependabot/fetch-metadata from 1.5.1 to 1.6.0 ([e8a6a0f](https://github.com/vinayakkulkarni/v-intl/commit/e8a6a0ff84efaca4579ea854967bd38377e04e7e))
+* **deps:** bump dependabot/fetch-metadata from 1.6.0 to 2.0.0 ([d26b54a](https://github.com/vinayakkulkarni/v-intl/commit/d26b54aecf14cda2bf99b8ef973a86c7373a48c5))
+* **deps:** bump dependabot/fetch-metadata from 2.0.0 to 2.1.0 ([a090e12](https://github.com/vinayakkulkarni/v-intl/commit/a090e121a797f3860d62c2a876be6306cd7e6a32))
+* **deps:** bump yaml from 2.2.1 to 2.2.2 ([9a49f53](https://github.com/vinayakkulkarni/v-intl/commit/9a49f53483c6d671670b541081aba75e0677f43c))
+* ignore `cache` dir ([0e28e4c](https://github.com/vinayakkulkarni/v-intl/commit/0e28e4ca840d63738b667443202ee9f4ef5f3e7a))
+* update meta files 🚀 ([4a0417d](https://github.com/vinayakkulkarni/v-intl/commit/4a0417dfcaedf2e270eda494b55ff7660b52031c))
+
+
+### Features
+
+* add support for jsr ✨ ([7e431f2](https://github.com/vinayakkulkarni/v-intl/commit/7e431f249ca67dbe5bba1c45bbb0ee5c247ba2d9))
+* **duration-format:** add Duration Format component 🎉 ([1f67ea7](https://github.com/vinayakkulkarni/v-intl/commit/1f67ea749c355af1968a2655c5c616ca99a1ea7b))
+* **shipjs:** add support for bumping jsr ([07a1720](https://github.com/vinayakkulkarni/v-intl/commit/07a1720d0753e91254c4b6b4afe3e5cf461af26e))
+
+
+
 # [2.2.0](https://github.com/vinayakkulkarni/v-intl/compare/v2.1.0...v2.2.0) (2023-04-01)
 
 
