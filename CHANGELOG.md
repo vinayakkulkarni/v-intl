@@ -1,3 +1,7 @@
+## [2.3.1](https://github.com/vinayakkulkarni/v-intl/compare/v2.3.0...v2.3.1) (2024-05-19)
+
+
+
 # [2.3.0](https://github.com/vinayakkulkarni/v-intl/compare/v2.2.0...v2.3.0) (2024-05-19)
 
 
