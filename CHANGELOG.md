@@ -1,3 +1,12 @@
+## [2.3.2](https://github.com/vinayakkulkarni/v-intl/compare/v2.3.1...v2.3.2) (2024-05-19)
+
+
+### Bug Fixes
+
+* **deps:** update @formatjs/intl-durationformat requirement ([#1577](https://github.com/vinayakkulkarni/v-intl/issues/1577)) ([38a360d](https://github.com/vinayakkulkarni/v-intl/commit/38a360dc8dc33297ad6435e61c60e4e247d51bbd))
+
+
+
 ## [2.3.1](https://github.com/vinayakkulkarni/v-intl/compare/v2.3.0...v2.3.1) (2024-05-19)
 
 
