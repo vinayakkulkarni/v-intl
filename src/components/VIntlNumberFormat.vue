@@ -1,61 +1,44 @@
-<template>
-  <div :class="wrapper">
-    {{ intlNumberFormat }}
-  </div>
-</template>
+<script setup lang="ts">
+  import { computed, defineModel } from 'vue';
+  import type { RequiredOptions } from '../types';
 
-<script lang="ts">
-  import { computed, defineComponent } from 'vue';
-  export default defineComponent({
-    name: 'VIntlNumberFormat',
-    props: {
-      wrapper: {
-        type: String,
-        required: false,
-        default: '',
-      },
-      payload: {
-        type: Number,
-        required: true,
-      },
-      format: {
-        type: Object,
-        required: false,
-        default: () => ({
-          /**
-           * Can be string or array with fallback
-           * read more: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl#Locale_identification_and_negotiation
-           */
-          locales: 'en-US',
-          /**
-           * Has to be a object with NumberFormat options
-           * read more: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/NumberFormat
-           */
-          options: {},
-        }),
-      },
-      toParts: {
-        type: Boolean,
-        required: false,
-        default: false,
-      },
-    },
-    setup(props) {
-      const intlNumberFormat = computed(() => {
-        if (props.toParts) {
-          return new Intl.NumberFormat(
-            props.format.locales,
-            props.format.options,
-          ).formatToParts(props.payload);
-        }
-        return new Intl.NumberFormat(
-          props.format.locales,
-          props.format.options,
-        ).format(props.payload);
-      });
-      return {
-        intlNumberFormat,
-      };
-    },
+  type FormatOptions = RequiredOptions & {
+    options: Intl.NumberFormatOptions;
+  };
+
+  const payload = defineModel<number>('payload', {
+    required: true,
+  });
+
+  const format = defineModel<FormatOptions>('format', {
+    required: false,
+    default: () => ({
+      locales: 'en-US',
+      options: {},
+    }),
+  });
+  const wrapper = defineModel<string>('wrapper', {
+    required: false,
+    default: '',
+  });
+  const toParts = defineModel<boolean>('toParts', {
+    required: false,
+    default: false,
+  });
+
+  const formattedNumbers = computed(() => {
+    const numbers = new Intl.NumberFormat(
+      format.value.locales,
+      format.value.options,
+    );
+    return toParts.value
+      ? numbers.formatToParts(payload.value)
+      : numbers.format(payload.value);
   });
 </script>
+
+<template>
+  <div :class="wrapper">
+    {{ formattedNumbers }}
+  </div>
+</template>

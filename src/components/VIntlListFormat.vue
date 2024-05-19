@@ -1,55 +1,44 @@
-<template>
-  <div :class="wrapper">
-    {{ intlListFormat }}
-  </div>
-</template>
+<script setup lang="ts">
+  import { computed, defineModel } from 'vue';
+  import type { RequiredOptions } from '../types';
 
-<script lang="ts">
-  import { computed, defineComponent } from 'vue';
-  import type { PropType } from 'vue';
+  type FormatOptions = RequiredOptions & {
+    options: Intl.ListFormatOptions;
+  };
 
-  export default defineComponent({
-    name: 'VIntlListFormat',
-    props: {
-      wrapper: {
-        type: String,
-        required: false,
-        default: '',
-      },
-      payload: {
-        type: Array as PropType<Iterable<string>>,
-        required: true,
-      },
-      format: {
-        type: Object,
-        required: true,
-        default: () => ({
-          locales: 'en-US',
-          options: {},
-        }),
-      },
-      toParts: {
-        type: Boolean,
-        required: false,
-        default: false,
-      },
-    },
-    setup(props) {
-      const intlListFormat = computed(() => {
-        if (props.toParts) {
-          return new Intl.ListFormat(
-            props.format.locales,
-            props.format.options,
-          ).formatToParts(props.payload);
-        }
-        return new Intl.ListFormat(
-          props.format.locales,
-          props.format.options,
-        ).format(props.payload);
-      });
-      return {
-        intlListFormat,
-      };
-    },
+  const payload = defineModel<string>('payload', {
+    required: true,
+  });
+
+  const format = defineModel<FormatOptions>('format', {
+    required: false,
+    default: () => ({
+      locales: 'en-US',
+      options: {},
+    }),
+  });
+  const wrapper = defineModel<string>('wrapper', {
+    required: false,
+    default: '',
+  });
+  const toParts = defineModel<boolean>('toParts', {
+    required: false,
+    default: false,
+  });
+
+  const formattedList = computed(() => {
+    const list = new Intl.ListFormat(
+      format.value.locales,
+      format.value.options,
+    );
+    return toParts.value
+      ? list.formatToParts(payload.value)
+      : list.format(payload.value);
   });
 </script>
+
+<template>
+  <div :class="wrapper">
+    {{ formattedList }}
+  </div>
+</template>
