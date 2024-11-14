@@ -40,7 +40,7 @@
     "docs:serve": "vitepress serve docs"
   },
   "dependencies": {
-    "@formatjs/intl-durationformat": "^0.2.4"
+    "@formatjs/intl-durationformat": "^0.6.3"
   },
   "devDependencies": {
     "@commitlint/cli": "^19.3.0",
