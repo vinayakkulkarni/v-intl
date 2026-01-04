@@ -71,7 +71,7 @@
     "typescript": "^5.5.4",
     "vite": "^5.4.0",
     "vitepress": "^1.2.2",
-    "vue": "^3.5.20",
+    "vue": "^3.5.26",
     "vue-tsc": "^2.0.26"
   },
   "keywords": [
