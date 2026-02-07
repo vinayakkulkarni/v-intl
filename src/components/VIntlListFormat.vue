@@ -1,5 +1,5 @@
 <script setup lang="ts">
-  import { computed, defineModel } from 'vue';
+  import { computed } from 'vue';
   import type { RequiredOptions } from '../types';
 
   type FormatOptions = RequiredOptions & {

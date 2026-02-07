@@ -1,5 +1,5 @@
 <script setup lang="ts">
-  import { computed, defineModel } from 'vue';
+  import { computed } from 'vue';
   import { DurationFormat } from '@formatjs/intl-durationformat';
   import type {
     DurationFormatOptions,
