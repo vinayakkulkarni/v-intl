@@ -26,22 +26,22 @@
     "vue": "^3.5.27"
   },
   "dependencies": {
-    "@formatjs/intl-durationformat": "^0.7.1",
-    "vue": "^3.5.27"
+    "@formatjs/intl-durationformat": "^0.10.3",
+    "vue": "^3.5.31"
   },
   "devDependencies": {
     "@commitlint/cli": "latest",
     "@commitlint/config-conventional": "latest",
-    "@types/node": "^25.2.1",
-    "@vitejs/plugin-vue": "^6.0.4",
+    "@types/node": "^25.5.0",
+    "@vitejs/plugin-vue": "^6.0.5",
     "husky": "latest",
     "is-ci": "latest",
     "lint-staged": "latest",
-    "typescript": "^5.9.3",
+    "typescript": "^6.0.2",
     "unplugin-vue": "^7.1.1",
-    "vite": "^7.3.1",
+    "vite": "^8.0.3",
     "vite-plus": "^0.1.14",
-    "vue-tsc": "^3.2.4"
+    "vue-tsc": "^3.2.6"
   },
   "keywords": [
     "v-intl",
