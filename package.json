@@ -27,7 +27,7 @@
   },
   "dependencies": {
     "@formatjs/intl-durationformat": "^0.10.3",
-    "vue": "^3.5.31"
+    "vue": "^3.5.33"
   },
   "devDependencies": {
     "@commitlint/cli": "latest",
