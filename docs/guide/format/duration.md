@@ -51,4 +51,3 @@ The [`Intl.DurationFormat`](https://developer.mozilla.org/en-US/docs/Web/JavaScr
   };
 </script>
 ```
-

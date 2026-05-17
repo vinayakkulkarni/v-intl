@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
     inputs:
       tag:
-        description: "Tag to publish (e.g., v1.2.2)"
+        description: 'Tag to publish (e.g., v1.2.2)'
         required: true
 
 permissions:
@@ -49,9 +49,9 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v6
         with:
-          node-version-file: ".nvmrc"
-          registry-url: "https://registry.npmjs.org"
-          cache: "pnpm"
+          node-version-file: '.nvmrc'
+          registry-url: 'https://registry.npmjs.org'
+          cache: 'pnpm'
 
       - name: Install dependencies
         run: pnpm install --frozen-lockfile

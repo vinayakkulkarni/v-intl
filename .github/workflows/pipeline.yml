@@ -1,4 +1,4 @@
-name: "The Pipeline"
+name: 'The Pipeline'
 
 on:
   push:
@@ -19,18 +19,18 @@ concurrency:
 
 jobs:
   lint-branch:
-    name: "Lint branch"
+    name: 'Lint branch'
     if: github.event_name == 'pull_request' && github.event.action != 'edited'
     uses: ./.github/workflows/lint-branch.yml
 
   lint-pr:
-    name: "Lint PR"
+    name: 'Lint PR'
     if: github.event_name == 'pull_request'
     uses: ./.github/workflows/lint-pr.yml
     secrets: inherit
 
   ci:
-    name: "CI"
+    name: 'CI'
     needs: [lint-branch, lint-pr]
     if: |
       always() &&

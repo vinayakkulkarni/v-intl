@@ -1,18 +1,41 @@
 {
   "name": "@vinayakkulkarni/v-intl",
   "version": "4.0.0",
+  "private": false,
   "description": "Native i18n components for your shiny Vue 3 apps",
+  "keywords": [
+    "internationalization",
+    "intl",
+    "v-intl",
+    "vue",
+    "vue intl"
+  ],
+  "homepage": "https://v-intl.netlify.app/",
+  "bugs": {
+    "url": "https://github.com/vinayakkulkarni/v-intl/issues"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Vinayak Kulkarni",
+    "email": "inbox.vinayak@gmail.com",
+    "url": "https://vinayakkulkarni.dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vinayakkulkarni/v-intl.git"
+  },
+  "files": [
+    "dist"
+  ],
+  "type": "module",
+  "sideEffects": false,
+  "types": "dist/index.d.ts",
   "exports": {
     ".": {
       "import": "./dist/index.js",
       "types": "./dist/index.d.ts"
     }
   },
-  "types": "dist/index.d.ts",
-  "type": "module",
-  "files": [
-    "dist"
-  ],
   "scripts": {
     "lint": "vp lint",
     "lint:fix": "vp lint --fix",
@@ -22,51 +45,27 @@
     "test": "echo 'test!'",
     "prepare": "is-ci || husky"
   },
-  "peerDependencies": {
-    "vue": "^3.5.27"
-  },
   "dependencies": {
-    "@formatjs/intl-durationformat": "^0.10.3",
-    "vue": "^3.5.31"
+    "@formatjs/intl-durationformat": "^0.10.11",
+    "vue": "^3.5.34"
   },
   "devDependencies": {
     "@commitlint/cli": "latest",
     "@commitlint/config-conventional": "latest",
-    "@types/node": "^25.5.0",
-    "@vitejs/plugin-vue": "^6.0.5",
+    "@types/node": "^25.8.0",
+    "@vitejs/plugin-vue": "^6.0.7",
     "husky": "latest",
     "is-ci": "latest",
     "lint-staged": "latest",
-    "typescript": "^6.0.2",
-    "unplugin-vue": "^7.1.1",
-    "vite": "^8.0.3",
-    "vite-plus": "^0.1.14",
-    "vue-tsc": "^3.2.6"
+    "typescript": "^6.0.3",
+    "unplugin-vue": "^7.2.0",
+    "vite": "^8.0.13",
+    "vite-plus": "^0.1.21",
+    "vue-tsc": "^3.2.9"
   },
-  "keywords": [
-    "v-intl",
-    "internationalization",
-    "vue",
-    "intl",
-    "vue intl"
-  ],
-  "author": {
-    "name": "Vinayak Kulkarni",
-    "email": "inbox.vinayak@gmail.com",
-    "url": "https://vinayakkulkarni.dev"
+  "peerDependencies": {
+    "vue": "^3.5.27"
   },
-  "license": "MIT",
-  "private": false,
-  "sideEffects": false,
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/vinayakkulkarni/v-intl.git"
-  },
-  "bugs": {
-    "url": "https://github.com/vinayakkulkarni/v-intl/issues"
-  },
-  "homepage": "https://v-intl.netlify.app/",
-  "packageManager": "pnpm@11.1.2+sha512.415a1cc25974731e75455c1468371be74c5aa5fb7621b50d4056d222451609f11412f23fd602e6169f1e060466641f798597e1be961a10688836a67b16569499",
   "devEngines": {
     "packageManager": {
       "name": "pnpm",
@@ -77,5 +76,6 @@
       "name": "node",
       "version": ">=24"
     }
-  }
+  },
+  "packageManager": "pnpm@11.1.2+sha512.415a1cc25974731e75455c1468371be74c5aa5fb7621b50d4056d222451609f11412f23fd602e6169f1e060466641f798597e1be961a10688836a67b16569499"
 }

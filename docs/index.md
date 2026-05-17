@@ -14,11 +14,11 @@ hero:
       text: View on GitHub
       link: https://github.com/vinayakkulkarni/v-intl
 features:
-- title: Future Proof 🚀
-  details: Written in Vue 3 w/ TypeScript.
-- title: Easy to use 👨‍🔧
-  details: Easy to integrate in your existing Vue App.
-- title: Tree shakable 🌳
-  details: Only load components you want.
+  - title: Future Proof 🚀
+    details: Written in Vue 3 w/ TypeScript.
+  - title: Easy to use 👨‍🔧
+    details: Easy to integrate in your existing Vue App.
+  - title: Tree shakable 🌳
+    details: Only load components you want.
 footer: MIT Licensed | Copyright © 2020-present Vinayak Kulkarni
 ---
