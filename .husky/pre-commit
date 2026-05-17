@@ -1,2 +1,2 @@
 #!/usr/bin/env sh
-bunx --bun lint-staged
+pnpm exec lint-staged
