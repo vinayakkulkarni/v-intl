@@ -24,9 +24,6 @@ importers:
       '@types/node':
         specifier: ^25.8.0
         version: 25.8.0
-      '@vitejs/plugin-vue':
-        specifier: ^6.0.7
-        version: 6.0.7(vite@8.0.13(@types/node@25.8.0)(jiti@2.6.1)(yaml@2.9.0))(vue@3.5.34(typescript@6.0.3))
       husky:
         specifier: latest
         version: 9.1.7
@@ -42,9 +39,6 @@ importers:
       unplugin-vue:
         specifier: ^7.2.0
         version: 7.2.0(@types/node@25.8.0)(jiti@2.6.1)(vue@3.5.34(typescript@6.0.3))(yaml@2.9.0)
-      vite:
-        specifier: ^8.0.13
-        version: 8.0.13(@types/node@25.8.0)(jiti@2.6.1)(yaml@2.9.0)
       vite-plus:
         specifier: ^0.1.21
         version: 0.1.21(@types/node@25.8.0)(jiti@2.6.1)(typescript@6.0.3)(vite@8.0.13(@types/node@25.8.0)(jiti@2.6.1)(yaml@2.9.0))(yaml@2.9.0)
@@ -606,13 +600,6 @@ packages:
 
   '@types/node@25.8.0':
     resolution: {integrity: sha512-TCFSk8IZh+iLX1xtksoBVtdmgL+1IX0fC9BeU4QqFSuNdN/K+HUlhqOzEmSYYpZUVsLYcPqc9KX+60iDuninSQ==}
-
-  '@vitejs/plugin-vue@6.0.7':
-    resolution: {integrity: sha512-km+p+XdSz9Sxm5rqUbqcSfZYaAniKxWBj1KURl+Jr7UaPvvX7BmaWMdP69I5rrFDeQGyxAG7NXdc57vz+snhWg==}
-    engines: {node: ^20.19.0 || >=22.12.0}
-    peerDependencies:
-      vite: ^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0
-      vue: ^3.2.25
 
   '@voidzero-dev/vite-plus-core@0.1.21':
     resolution: {integrity: sha512-BEnqw8h2vxgKkzBjmmW4e1kwPwzoWc+jXJQB+7e0Dm1/1AkdTaQ9FgUMFzDfYrwTDkGzCZHSSsHDOl3RERQFTA==}
@@ -1801,12 +1788,6 @@ snapshots:
   '@types/node@25.8.0':
     dependencies:
       undici-types: 7.24.6
-
-  '@vitejs/plugin-vue@6.0.7(vite@8.0.13(@types/node@25.8.0)(jiti@2.6.1)(yaml@2.9.0))(vue@3.5.34(typescript@6.0.3))':
-    dependencies:
-      '@rolldown/pluginutils': 1.0.1
-      vite: 8.0.13(@types/node@25.8.0)(jiti@2.6.1)(yaml@2.9.0)
-      vue: 3.5.34(typescript@6.0.3)
 
   '@voidzero-dev/vite-plus-core@0.1.21(@types/node@25.8.0)(jiti@2.6.1)(typescript@6.0.3)(yaml@2.9.0)':
     dependencies:

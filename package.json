@@ -53,13 +53,11 @@
     "@commitlint/cli": "latest",
     "@commitlint/config-conventional": "latest",
     "@types/node": "^25.8.0",
-    "@vitejs/plugin-vue": "^6.0.7",
     "husky": "latest",
     "is-ci": "latest",
     "lint-staged": "latest",
     "typescript": "^6.0.3",
     "unplugin-vue": "^7.2.0",
-    "vite": "^8.0.13",
     "vite-plus": "^0.1.21",
     "vue-tsc": "^3.2.9"
   },
