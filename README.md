@@ -1,17 +1,22 @@
 # [v-intl 🖼](https://github.com/vinayakkulkarni/v-intl#readme)
 
-[![Pipeline](https://img.shields.io/github/actions/workflow/status/vinayakkulkarni/v-intl/pipeline.yml?logo=github-actions)](https://github.com/vinayakkulkarni/v-intl/actions/workflows/pipeline.yml)
-[![CodeQL](https://github.com/vinayakkulkarni/v-intl/actions/workflows/codeql.yml/badge.svg)](https://github.com/vinayakkulkarni/v-intl/actions/workflows/codeql.yml)
-[![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/vinayakkulkarni/v-intl?sort=semver&logo=github)](https://github.com/vinayakkulkarni/v-intl/releases)
-[![npm](https://img.shields.io/npm/v/@vinayakkulkarni/v-intl?logo=npm)](https://www.npmjs.com/package/@vinayakkulkarni/v-intl)
-[![npm](https://img.shields.io/npm/dm/@vinayakkulkarni/v-intl?logo=npm)](http://npm-stat.com/charts.html?package=@vinayakkulkarni/v-intl)
-[![npm bundle size (version)](https://img.shields.io/bundlephobia/min/@vinayakkulkarni/v-intl/latest)](https://bundlephobia.com/package/@vinayakkulkarni/v-intl@latest)
-[![npm type definitions](https://img.shields.io/npm/types/@vinayakkulkarni/v-intl)](https://github.com/vinayakkulkarni/v-intl/blob/master/package.json)
-[![license](https://img.shields.io/npm/l/@vinayakkulkarni/v-intl)](https://github.com/vinayakkulkarni/v-intl/blob/master/LICENSE)
-[![GitHub contributors](https://img.shields.io/github/contributors/vinayakkulkarni/v-intl)](https://github.com/vinayakkulkarni/v-intl/graphs/contributors)
+<!-- Badges -->
 
-[![vite-plus](https://img.shields.io/github/package-json/dependency-version/vinayakkulkarni/v-intl/dev/vite-plus?logo=vite)](https://github.com/voidzero-dev/vite-plus)
-[![typescript](https://img.shields.io/npm/dependency-version/@vinayakkulkarni/v-intl/dev/typescript?logo=TypeScript)](https://www.typescriptlang.org/)
+[![Pipeline](https://img.shields.io/github/actions/workflow/status/vinayakkulkarni/v-intl/pipeline.yml?branch=main&logo=github-actions&label=pipeline)](https://github.com/vinayakkulkarni/v-intl/actions/workflows/pipeline.yml)
+[![GitHub release](https://img.shields.io/github/v/release/vinayakkulkarni/v-intl?sort=semver&logo=github&label=release)](https://github.com/vinayakkulkarni/v-intl/releases)
+[![npm](https://img.shields.io/npm/v/@vinayakkulkarni%2Fv-intl?logo=npm&label=npm)](https://www.npmjs.com/package/@vinayakkulkarni/v-intl)
+[![JSR](https://img.shields.io/jsr/v/@vinayakkulkarni/v-intl?logo=jsr&label=jsr)](https://jsr.io/@vinayakkulkarni/v-intl)
+[![npm downloads](https://img.shields.io/npm/dm/@vinayakkulkarni%2Fv-intl?logo=npm&label=downloads)](http://npm-stat.com/charts.html?package=@vinayakkulkarni/v-intl)
+[![bundle size](https://img.shields.io/bundlephobia/minzip/@vinayakkulkarni%2Fv-intl?label=size)](https://bundlephobia.com/package/@vinayakkulkarni/v-intl@latest)
+[![types](https://img.shields.io/npm/types/@vinayakkulkarni%2Fv-intl?logo=typescript&label=types)](https://github.com/vinayakkulkarni/v-intl/blob/main/package.json)
+[![License](https://img.shields.io/github/license/vinayakkulkarni/v-intl?logo=github&label=license)](./LICENSE)
+
+[![vite-plus](https://img.shields.io/github/package-json/dependency-version/vinayakkulkarni/v-intl/dev/vite-plus?logo=vite&label=vite-plus)](https://github.com/voidzero-dev/vite-plus)
+[![typescript](https://img.shields.io/github/package-json/dependency-version/vinayakkulkarni/v-intl/dev/typescript?logo=TypeScript&label=typescript)](https://www.typescriptlang.org/)
+[![pnpm](https://img.shields.io/github/package-json/packageManager/vinayakkulkarni/v-intl?label=pnpm&logo=pnpm)](https://pnpm.io/)
+[![node](https://img.shields.io/node/v/@vinayakkulkarni%2Fv-intl?logo=node.js&label=node)](https://nodejs.org/)
+
+<!-- End Badges -->
 
 ---
 

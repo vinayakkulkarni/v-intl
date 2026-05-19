@@ -6,5 +6,6 @@
     "exclude": [
       "!dist"
     ]
-  }
+  },
+  "description": "Native Intl-based i18n components for Vue 3 \u2014 number, date, currency, relative time, and list formatting with zero runtime overhead."
 }
