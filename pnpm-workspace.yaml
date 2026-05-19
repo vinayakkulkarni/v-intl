@@ -1,0 +1,2 @@
+minimumReleaseAgeExclude:
+  - '@formatjs/intl-durationformat@0.10.12'
