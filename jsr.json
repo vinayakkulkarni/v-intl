@@ -1,7 +1,7 @@
 {
   "name": "@vinayakkulkarni/v-intl",
   "version": "4.0.0",
-  "exports": "./dist/v-intl.js",
+  "exports": "./dist/index.js",
   "publish": {
     "exclude": [
       "!dist"
