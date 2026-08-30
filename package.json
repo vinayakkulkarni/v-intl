@@ -1,6 +1,6 @@
 {
   "name": "@vinayakkulkarni/v-intl",
-  "version": "4.0.0",
+  "version": "5.0.0",
   "private": false,
   "description": "Native Intl-based i18n components for Vue 3 — number, date, currency, relative time, and list formatting with zero runtime overhead.",
   "keywords": [
