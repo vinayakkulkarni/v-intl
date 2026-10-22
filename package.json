@@ -57,7 +57,7 @@
     "is-ci": "^4.1.0",
     "lint-staged": "^17.6.0",
     "typescript": "^6.0.3",
-    "unplugin-vue": "^7.2.0",
+    "unplugin-vue": "^8.0.0",
     "vite-plus": "^0.1.21",
     "vue-tsc": "^3.3.13"
   },
