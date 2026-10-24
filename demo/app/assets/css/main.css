@@ -63,6 +63,19 @@
   --font-sans: 'Satoshi', ui-sans-serif, system-ui, sans-serif;
   --font-display: 'Clash Display', 'Satoshi', ui-sans-serif, sans-serif;
   --font-mono: 'JetBrains Mono', ui-monospace, monospace;
+
+  /* Display sizes: fluid between a 375px phone and a 1440px desktop. */
+  --text-hero: clamp(3rem, 13vw, 10.5rem);
+  --text-hero--line-height: 0.9;
+  --text-section: clamp(1.5rem, 3vw, 2.25rem);
+  --text-section--line-height: 1.25;
+  --text-output: clamp(1.25rem, 3.2vw, 2rem);
+  --text-output--line-height: 1.375;
+  --text-label: 0.6875rem;
+
+  /* Measures for running text. */
+  --container-lede: 30ch;
+  --container-blurb: 42ch;
 }
 
 @theme inline {
@@ -74,6 +87,11 @@
   --color-rule: var(--rule);
   --color-accent: var(--accent);
   --color-accent-ink: var(--accent-ink);
+}
+
+/* The hero fills the viewport below the 4rem header. */
+@utility min-h-hero {
+  min-height: calc(100dvh - 4rem);
 }
 
 @layer base {

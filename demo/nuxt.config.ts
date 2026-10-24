@@ -42,7 +42,7 @@ export default defineNuxtConfig({
   app: {
     head: {
       htmlAttrs: { lang: 'en' },
-      title: 'v-intl — native Intl formatting for Vue 3',
+      title: 'v-intl: native Intl formatting for Vue 3',
       meta: [
         {
           name: 'description',

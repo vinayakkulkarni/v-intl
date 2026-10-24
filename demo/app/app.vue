@@ -17,7 +17,7 @@
   useSeoMeta({
     ogType: 'website',
     ogUrl: `${SITE}/`,
-    ogTitle: 'v-intl — native Intl formatting for Vue 3',
+    ogTitle: 'v-intl: native Intl formatting for Vue 3',
     ogDescription: DESCRIPTION,
     twitterCard: 'summary',
   });
@@ -46,12 +46,12 @@
     <main class="flex flex-1 flex-col">
       <section
         aria-labelledby="hero-title"
-        class="flex min-h-[calc(100dvh-4rem)] flex-col justify-center gap-8 px-5 pb-12 sm:px-8 lg:px-12"
+        class="flex min-h-hero flex-col justify-center gap-8 px-5 pb-12 sm:px-8 lg:px-12"
       >
         <div>
           <h1
             id="hero-title"
-            class="max-w-[30ch] text-lg leading-relaxed text-ink-2 sm:text-xl"
+            class="max-w-lede text-lg leading-relaxed text-ink-2 sm:text-xl"
           >
             <span class="font-medium text-ink">v-intl</span> formats numbers,
             dates, lists and names for Vue 3 with the browser’s own
@@ -63,16 +63,14 @@
         <VIntlNumberFormat
           :payload="1234567.89"
           :format="heroFormat"
-          wrapper="font-display text-[clamp(3rem,13vw,10.5rem)] leading-[0.9] font-semibold tracking-tight [overflow-wrap:anywhere] text-ink"
+          wrapper="font-display text-hero font-semibold tracking-tight wrap-anywhere text-ink"
           aria-live="polite"
         />
 
         <LocalePicker v-model="locale" />
 
-        <div
-          class="grid max-w-2xl gap-3 sm:grid-cols-[1fr_auto] sm:items-center"
-        >
-          <CopyCommand :command="INSTALL" />
+        <div class="flex max-w-2xl flex-col gap-3 sm:flex-row sm:items-center">
+          <CopyCommand :command="INSTALL" class="flex-1" />
           <a
             href="#number"
             class="inline-flex h-11 items-center justify-center border border-ink bg-ink px-5 font-mono text-xs text-paper transition-opacity hover:opacity-85"

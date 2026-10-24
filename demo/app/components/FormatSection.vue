@@ -19,12 +19,12 @@
       <p class="font-mono text-xs text-accent-ink">{{ props.index }}</p>
       <h2
         :id="`${props.id}-title`"
-        class="mt-2 font-display text-[clamp(1.5rem,3vw,2.25rem)] leading-tight font-semibold tracking-tight"
+        class="mt-2 font-display text-section font-semibold tracking-tight"
       >
         {{ props.title }}
       </h2>
       <p class="mt-2 font-mono text-xs break-all text-ink-3">{{ props.tag }}</p>
-      <p class="mt-4 max-w-[42ch] leading-relaxed text-ink-2">
+      <p class="mt-4 max-w-blurb leading-relaxed text-ink-2">
         <slot name="description" />
       </p>
       <OutboundLink
@@ -40,7 +40,7 @@
         <slot name="controls" />
       </div>
       <div
-        class="min-w-0 border-l-2 border-accent bg-paper-2 px-5 py-6 font-display text-[clamp(1.25rem,3.2vw,2rem)] leading-snug font-semibold break-words text-ink"
+        class="min-w-0 border-l-2 border-accent bg-paper-2 px-5 py-6 font-display text-output font-semibold break-words text-ink"
         aria-live="polite"
       >
         <slot />

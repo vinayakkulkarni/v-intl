@@ -23,7 +23,7 @@
 <template>
   <fieldset class="min-w-0">
     <legend
-      class="mb-2 font-mono text-[11px] tracking-wide text-ink-3 uppercase"
+      class="mb-2 font-mono text-label tracking-wide text-ink-3 uppercase"
     >
       {{ props.label }}
     </legend>
