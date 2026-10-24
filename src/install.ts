@@ -3,6 +3,7 @@ import VIntlNumberFormat from './components/VIntlNumberFormat.vue';
 import VIntlListFormat from './components/VIntlListFormat.vue';
 import VIntlDateTimeFormat from './components/VIntlDateTimeFormat.vue';
 import VIntlDisplayNames from './components/VIntlDisplayNames.vue';
+import VIntlDurationFormat from './components/VIntlDurationFormat.vue';
 import VIntlRelativeTimeFormat from './components/VIntlRelativeTimeFormat.vue';
 import { setVueInstance } from './utils/config';
 
@@ -15,6 +16,7 @@ const install: Exclude<Plugin['install'], undefined> = (app: Application) => {
     app.component('VIntlListFormat', VIntlListFormat);
     app.component('VIntlDateTimeFormat', VIntlDateTimeFormat);
     app.component('VIntlDisplayNames', VIntlDisplayNames);
+    app.component('VIntlDurationFormat', VIntlDurationFormat);
     app.component('VIntlRelativeTimeFormat', VIntlRelativeTimeFormat);
     installed = true;
   }

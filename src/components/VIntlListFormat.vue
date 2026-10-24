@@ -6,7 +6,7 @@
     options: Intl.ListFormatOptions;
   };
 
-  const payload = defineModel<string>('payload', {
+  const payload = defineModel<string[]>('payload', {
     required: true,
   });
 
