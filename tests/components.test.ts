@@ -10,43 +10,52 @@ import VIntl, {
   VIntlRelativeTimeFormat,
 } from '../src/index';
 
-async function render(
+const ESCAPES: Record<string, string> = {
+  '&': '&amp;',
+  '<': '&lt;',
+  '>': '&gt;',
+  '"': '&quot;',
+  "'": '&#39;',
+};
+
+/** The exact markup every component renders: one wrapper div around the text. */
+function wrapped(text: string, wrapper = ''): string {
+  const escaped = text.replace(/[&<>"']/g, (c) => ESCAPES[c] ?? c);
+  return `<div class="${wrapper}">${escaped}</div>`;
+}
+
+function render(
   component: Component,
   props: Record<string, unknown>,
 ): Promise<string> {
-  const html = await renderToString(
-    createSSRApp({ render: () => h(component, props) }),
-  );
-  return html
-    .replace(/<!--.*?-->/g, '')
-    .replace(/<[^>]+>/g, '')
-    .trim();
+  return renderToString(createSSRApp({ render: () => h(component, props) }));
 }
 
 describe('VIntlNumberFormat', () => {
   it('formats currency for the given locale', async () => {
-    const text = await render(VIntlNumberFormat, {
+    const html = await render(VIntlNumberFormat, {
       payload: 123456.789,
       format: {
         locales: 'de-DE',
         options: { style: 'currency', currency: 'EUR' },
       },
     });
-    expect(text).toBe(
-      new Intl.NumberFormat('de-DE', {
-        style: 'currency',
-        currency: 'EUR',
-      }).format(123456.789),
+    expect(html).toBe(
+      wrapped(
+        new Intl.NumberFormat('de-DE', {
+          style: 'currency',
+          currency: 'EUR',
+        }).format(123456.789),
+      ),
     );
   });
 
   it('applies the wrapper class', async () => {
-    const html = await renderToString(
-      createSSRApp({
-        render: () => h(VIntlNumberFormat, { payload: 1, wrapper: 'figure' }),
-      }),
-    );
-    expect(html).toContain('class="figure"');
+    const html = await render(VIntlNumberFormat, {
+      payload: 1,
+      wrapper: 'figure',
+    });
+    expect(html).toBe(wrapped('1', 'figure'));
   });
 });
 
@@ -57,54 +66,56 @@ describe('VIntlDateTimeFormat', () => {
       dateStyle: 'long',
       timeZone: 'UTC',
     };
-    const text = await render(VIntlDateTimeFormat, {
+    const html = await render(VIntlDateTimeFormat, {
       payload: date,
       format: { locales: 'fr-FR', options },
     });
-    expect(text).toBe(new Intl.DateTimeFormat('fr-FR', options).format(date));
+    expect(html).toBe(
+      wrapped(new Intl.DateTimeFormat('fr-FR', options).format(date)),
+    );
   });
 });
 
 describe('VIntlRelativeTimeFormat', () => {
   it('formats a relative value with any unit', async () => {
-    const text = await render(VIntlRelativeTimeFormat, {
+    const html = await render(VIntlRelativeTimeFormat, {
       payload: { number: -3, time: 'hours' },
       format: { locales: 'en-US', options: { numeric: 'auto' } },
     });
-    expect(text).toBe('3 hours ago');
+    expect(html).toBe(wrapped('3 hours ago'));
   });
 });
 
 describe('VIntlListFormat', () => {
   it('joins an array of items', async () => {
-    const text = await render(VIntlListFormat, {
+    const html = await render(VIntlListFormat, {
       payload: ['Motorcycle', 'Bus', 'Car'],
       format: {
         locales: 'en-GB',
         options: { style: 'long', type: 'conjunction' },
       },
     });
-    expect(text).toBe('Motorcycle, Bus and Car');
+    expect(html).toBe(wrapped('Motorcycle, Bus and Car'));
   });
 });
 
 describe('VIntlDisplayNames', () => {
   it('translates a region code', async () => {
-    const text = await render(VIntlDisplayNames, {
+    const html = await render(VIntlDisplayNames, {
       payload: 'IN',
       format: { locales: 'en', options: { type: 'region' } },
     });
-    expect(text).toBe('India');
+    expect(html).toBe(wrapped('India'));
   });
 });
 
 describe('VIntlDurationFormat', () => {
   it('formats a duration', async () => {
-    const text = await render(VIntlDurationFormat, {
+    const html = await render(VIntlDurationFormat, {
       payload: { hours: 1, minutes: 46, seconds: 40 },
       format: { locales: 'en', options: { style: 'long' } },
     });
-    expect(text).toBe('1 hour, 46 minutes, 40 seconds');
+    expect(html).toBe(wrapped('1 hour, 46 minutes, 40 seconds'));
   });
 });
 
