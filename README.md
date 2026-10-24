@@ -25,24 +25,55 @@ Intl in your dopeass Vue 3 apps 👨‍🔧
 
 ## Demo
 
-[![Edit v-intl](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/v-intl-7e0j0?fontsize=14&hidenavigation=1&theme=dark)
+Try every component live at **[v-intl.vinayakkulkarni.dev](https://v-intl.vinayakkulkarni.dev)**. Pick a locale and the whole page re-formats.
+
+## Install
+
+```sh
+pnpm add @vinayakkulkarni/v-intl
+```
 
 ## Usage
 
-### [In the docs 📓](https://v-intl.netlify.app)
+```vue
+<script setup lang="ts">
+  import { VIntlNumberFormat } from '@vinayakkulkarni/v-intl';
+
+  const format = {
+    locales: 'de-DE',
+    options: { style: 'currency', currency: 'EUR' },
+  };
+</script>
+
+<template>
+  <!-- 123.456,79 € -->
+  <VIntlNumberFormat :payload="123456.789" :format="format" />
+</template>
+```
+
+Every component takes the same props:
+
+| Prop      | Type                                 | Notes                                             |
+| --------- | ------------------------------------ | ------------------------------------------------- |
+| `payload` | depends on the component (see below) | Required.                                         |
+| `format`  | `{ locales, options }`               | `options` is the matching `Intl.*Options` object. |
+| `wrapper` | `string`                             | Class for the wrapping `<div>`.                   |
+| `toParts` | `boolean`                            | Return `formatToParts()` output where supported.  |
+
+To register all components globally, use the plugin: `app.use(VIntl)` with `import VIntl from '@vinayakkulkarni/v-intl'`.
 
 ## Background
 
-The package exposes 5 `Intl` components, viz.,
+The package exposes 6 `Intl` components, viz.,
 
-| Formatter                                                                             | What it does?                                           | More Info                                                                                                                                |
-| ------------------------------------------------------------------------------------- | ------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------- |
-| [VIntlListFormat](https://v-intl.netlify.app/guide/format/list.html)                  | _Enables language-sensitive list formatting._           | [Read More](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/ListFormat)                            |
-| [VIntlNumberFormat](https://v-intl.netlify.app/guide/format/number.html)              | _Enable language sensitive number formatting._          | [Read More](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/NumberFormat)                          |
-| [VIntlDateTimeFormat](https://v-intl.netlify.app/guide/format/date-time.html)         | _Formats the Date & Time._                              | [Read More](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/DateTimeFormat)                        |
-| [VIntlRelativeTimeFormat](https://v-intl.netlify.app/guide/format/relative-time.html) | _Create a relative time formatter in specified locale._ | [Read More](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/RelativeTimeFormat/RelativeTimeFormat) |
-| [VIntlDisplayNames](https://v-intl.netlify.app/guide/format/display-names.html)       | _Translates region, language, currency, script._        | [Read More](https://v8.dev/features/intl-displaynames#full-api)                                                                          |
-| [VIntlDurationFormat](https://v-intl.netlify.app/guide/format/duration.html)          | _Enables language-sensitive duration formatting._       | [Read More](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/DurationFormat)                        |
+| Formatter                                                                    | What it does?                                           | More Info                                                                                                                                |
+| ---------------------------------------------------------------------------- | ------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------- |
+| [VIntlListFormat](https://v-intl.vinayakkulkarni.dev/#list)                  | _Enables language-sensitive list formatting._           | [Read More](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/ListFormat)                            |
+| [VIntlNumberFormat](https://v-intl.vinayakkulkarni.dev/#number)              | _Enable language sensitive number formatting._          | [Read More](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/NumberFormat)                          |
+| [VIntlDateTimeFormat](https://v-intl.vinayakkulkarni.dev/#date-time)         | _Formats the Date & Time._                              | [Read More](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/DateTimeFormat)                        |
+| [VIntlRelativeTimeFormat](https://v-intl.vinayakkulkarni.dev/#relative-time) | _Create a relative time formatter in specified locale._ | [Read More](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/RelativeTimeFormat/RelativeTimeFormat) |
+| [VIntlDisplayNames](https://v-intl.vinayakkulkarni.dev/#display-names)       | _Translates region, language, currency, script._        | [Read More](https://v8.dev/features/intl-displaynames#full-api)                                                                          |
+| [VIntlDurationFormat](https://v-intl.vinayakkulkarni.dev/#duration)          | _Enables language-sensitive duration formatting._       | [Read More](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/DurationFormat)                        |
 
 They're are tree-shakable, meaning, you don't need to bulk up your bundle by including all the components.
 I've tried to keep the API as consistent as possible.
