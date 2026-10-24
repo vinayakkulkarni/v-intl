@@ -108,3 +108,7 @@ sw.*
 
 .temp
 cache
+
+# Cloudflare Workers build output
+.output
+.wrangler
