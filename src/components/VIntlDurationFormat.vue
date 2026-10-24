@@ -4,7 +4,7 @@
   import type {
     DurationFormatOptions,
     DurationInput,
-  } from '@formatjs/intl-durationformat/src/types';
+  } from '@formatjs/intl-durationformat';
 
   type FormatOptions = {
     locales?: string | string[];

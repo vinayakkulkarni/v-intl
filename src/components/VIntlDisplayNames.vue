@@ -14,7 +14,7 @@
     required: false,
     default: () => ({
       locales: 'en-US',
-      options: {},
+      options: { type: 'region' },
     }),
   });
   const wrapper = defineModel<string>('wrapper', {

@@ -7,8 +7,8 @@
   };
 
   const payload = defineModel<{
-    number: 1;
-    time: 'days';
+    number: number;
+    time: Intl.RelativeTimeFormatUnit;
   }>('payload', {
     required: true,
   });

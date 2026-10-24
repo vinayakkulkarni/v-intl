@@ -1,2 +1,34 @@
+# pnpm 11+ reads only auth/registry keys from .npmrc; every other setting
+# lives here in camelCase.
+packages:
+  - demo
+
+# Nuxt 4.5+ runs on unhead v3. Keep one copy on the release that fixed the
+# Cloudflare preset build break (nuxt/nuxt#35670).
+overrides:
+  unhead: '>=3.4.3'
+
 minimumReleaseAgeExclude:
-  - '@formatjs/intl-durationformat@0.10.12'
+  - '@nuxt/*'
+  - nuxt
+  - '@vue/*'
+  - vue
+  - wrangler
+  - workerd
+  - miniflare
+  - '@cloudflare/*'
+  - '@oxlint/*'
+  - '@oxfmt/*'
+  - '@commitlint/*'
+  - '@types/*'
+  - '@formatjs/*'
+  - vite-plus
+  - '@voidzero-dev/*'
+
+allowBuilds:
+  '@parcel/watcher': false
+  esbuild: true
+  sharp: false
+  unrs-resolver: true
+  vue-demi: false
+  workerd: true

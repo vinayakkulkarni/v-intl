@@ -20,11 +20,11 @@
 v-intl/
 ├── src/
 │   ├── components/     # VIntl* components (DateTimeFormat, DisplayNames, DurationFormat, ListFormat, NumberFormat, RelativeTimeFormat)
-│   ├── utils/          # Helper utilities
 │   ├── types.ts        # Shared types
 │   ├── index.ts        # Public exports
 │   └── install.ts      # Vue plugin installer
-├── docs/               # VitePress documentation
+├── demo/               # Nuxt demo on Cloudflare Workers (v-intl.vinayakkulkarni.dev)
+├── tests/              # Component tests (vp test)
 ├── dist/               # Built output (ESM only)
 ├── package.json
 ├── vite.config.ts
@@ -45,7 +45,7 @@ v-intl/
 | Package Mgr | pnpm                              |
 | Git Hooks   | Husky + lint-staged + commitlint  |
 | Release     | release-please                    |
-| Node        | 24                                |
+| Node        | 26                                |
 
 ---
 
@@ -57,7 +57,10 @@ pnpm run lint:fix      # vp lint --fix
 pnpm run format        # vp fmt
 pnpm run format:check  # vp fmt --check
 pnpm run build         # vp pack (tsdown + dts)
-pnpm run test          # Tests
+pnpm run test          # vp test run
+pnpm run typecheck     # vue-tsc (lib, tests) + nuxt typecheck (demo)
+pnpm run demo:dev      # Nuxt demo dev server
+pnpm run deploy        # Build + deploy the demo Worker (v-intl-demo)
 ```
 
 ---
@@ -99,5 +102,5 @@ All commits must follow conventional commit format with `Signed-off-by` trailer.
 
 ---
 
-**Last Updated:** 2026-02-08
+**Last Updated:** 2026-10-24
 **Maintainer:** Vinayak Kulkarni
