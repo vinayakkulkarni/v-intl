@@ -1,0 +1,109 @@
+@import 'tailwindcss';
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* ── Fonts (self-hosted, same families as nxui.geoql.in) ─────────── */
+
+@font-face {
+  font-family: 'Clash Display';
+  font-weight: 600;
+  font-display: swap;
+  src: url('/fonts/clash-display-600.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Satoshi';
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/satoshi-400.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Satoshi';
+  font-weight: 500;
+  font-display: swap;
+  src: url('/fonts/satoshi-500.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'JetBrains Mono';
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/jetbrains-mono-400.woff2') format('woff2');
+}
+
+/* ── Tokens ──────────────────────────────────────────────────────────
+ * Paper and ink with one accent: verdigris, the green of an old copper
+ * globe. Accent marks the active locale, focus and live output — never body
+ * text.
+ */
+
+:root {
+  color-scheme: light;
+  --paper: oklch(0.975 0.006 85);
+  --paper-2: oklch(0.95 0.008 85);
+  --ink: oklch(0.21 0.014 260);
+  --ink-2: oklch(0.42 0.014 260);
+  --ink-3: oklch(0.52 0.012 260);
+  --rule: oklch(0.87 0.008 85);
+  --accent: oklch(0.58 0.1 178);
+  --accent-ink: oklch(0.46 0.09 182);
+}
+
+.dark {
+  color-scheme: dark;
+  --paper: oklch(0.17 0.01 260);
+  --paper-2: oklch(0.21 0.012 260);
+  --ink: oklch(0.95 0.008 85);
+  --ink-2: oklch(0.78 0.01 85);
+  --ink-3: oklch(0.66 0.012 260);
+  --rule: oklch(0.3 0.012 260);
+  --accent: oklch(0.74 0.11 176);
+  --accent-ink: oklch(0.82 0.09 172);
+}
+
+@theme {
+  --font-sans: 'Satoshi', ui-sans-serif, system-ui, sans-serif;
+  --font-display: 'Clash Display', 'Satoshi', ui-sans-serif, sans-serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, monospace;
+}
+
+@theme inline {
+  --color-paper: var(--paper);
+  --color-paper-2: var(--paper-2);
+  --color-ink: var(--ink);
+  --color-ink-2: var(--ink-2);
+  --color-ink-3: var(--ink-3);
+  --color-rule: var(--rule);
+  --color-accent: var(--accent);
+  --color-accent-ink: var(--accent-ink);
+}
+
+@layer base {
+  html {
+    background: var(--paper);
+    color: var(--ink);
+    -webkit-text-size-adjust: 100%;
+  }
+  body {
+    font-family: var(--font-sans);
+    font-feature-settings: 'calt' 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    overflow-x: clip;
+  }
+  ::selection {
+    background: var(--accent);
+    color: var(--paper);
+  }
+  :focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 3px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+  }
+}
