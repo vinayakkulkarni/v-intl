@@ -20,7 +20,6 @@
 v-intl/
 ├── src/
 │   ├── components/     # VIntl* components (DateTimeFormat, DisplayNames, DurationFormat, ListFormat, NumberFormat, RelativeTimeFormat)
-│   ├── utils/          # Helper utilities
 │   ├── types.ts        # Shared types
 │   ├── index.ts        # Public exports
 │   └── install.ts      # Vue plugin installer
