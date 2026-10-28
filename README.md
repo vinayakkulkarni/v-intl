@@ -19,13 +19,15 @@
 
 <!-- End Badges -->
 
+**[Live demo](https://v-intl.vinayakkulkarni.dev/?utm_source=github&utm_medium=readme&utm_campaign=v-intl)** · [npm](https://www.npmjs.com/package/@vinayakkulkarni/v-intl) · [JSR](https://jsr.io/@vinayakkulkarni/v-intl)
+
 ---
 
 Intl in your dopeass Vue 3 apps 👨‍🔧
 
 ## Demo
 
-Try every component live at **[v-intl.vinayakkulkarni.dev](https://v-intl.vinayakkulkarni.dev)**. Pick a locale and the whole page re-formats.
+Try every component live at **[v-intl.vinayakkulkarni.dev](https://v-intl.vinayakkulkarni.dev/?utm_source=github&utm_medium=readme&utm_campaign=v-intl)**. Pick a locale and the whole page re-formats.
 
 ## Install
 
@@ -66,14 +68,14 @@ To register all components globally, use the plugin: `app.use(VIntl)` with `impo
 
 The package exposes 6 `Intl` components, viz.,
 
-| Formatter                                                                    | What it does?                                           | More Info                                                                                                                                |
-| ---------------------------------------------------------------------------- | ------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------- |
-| [VIntlListFormat](https://v-intl.vinayakkulkarni.dev/#list)                  | _Enables language-sensitive list formatting._           | [Read More](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/ListFormat)                            |
-| [VIntlNumberFormat](https://v-intl.vinayakkulkarni.dev/#number)              | _Enable language sensitive number formatting._          | [Read More](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/NumberFormat)                          |
-| [VIntlDateTimeFormat](https://v-intl.vinayakkulkarni.dev/#date-time)         | _Formats the Date & Time._                              | [Read More](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/DateTimeFormat)                        |
-| [VIntlRelativeTimeFormat](https://v-intl.vinayakkulkarni.dev/#relative-time) | _Create a relative time formatter in specified locale._ | [Read More](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/RelativeTimeFormat/RelativeTimeFormat) |
-| [VIntlDisplayNames](https://v-intl.vinayakkulkarni.dev/#display-names)       | _Translates region, language, currency, script._        | [Read More](https://v8.dev/features/intl-displaynames#full-api)                                                                          |
-| [VIntlDurationFormat](https://v-intl.vinayakkulkarni.dev/#duration)          | _Enables language-sensitive duration formatting._       | [Read More](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/DurationFormat)                        |
+| Formatter                                                                                                                            | What it does?                                           | More Info                                                                                                                                |
+| ------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------- |
+| [VIntlListFormat](https://v-intl.vinayakkulkarni.dev/?utm_source=github&utm_medium=readme&utm_campaign=v-intl#list)                  | _Enables language-sensitive list formatting._           | [Read More](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/ListFormat)                            |
+| [VIntlNumberFormat](https://v-intl.vinayakkulkarni.dev/?utm_source=github&utm_medium=readme&utm_campaign=v-intl#number)              | _Enable language sensitive number formatting._          | [Read More](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/NumberFormat)                          |
+| [VIntlDateTimeFormat](https://v-intl.vinayakkulkarni.dev/?utm_source=github&utm_medium=readme&utm_campaign=v-intl#date-time)         | _Formats the Date & Time._                              | [Read More](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/DateTimeFormat)                        |
+| [VIntlRelativeTimeFormat](https://v-intl.vinayakkulkarni.dev/?utm_source=github&utm_medium=readme&utm_campaign=v-intl#relative-time) | _Create a relative time formatter in specified locale._ | [Read More](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/RelativeTimeFormat/RelativeTimeFormat) |
+| [VIntlDisplayNames](https://v-intl.vinayakkulkarni.dev/?utm_source=github&utm_medium=readme&utm_campaign=v-intl#display-names)       | _Translates region, language, currency, script._        | [Read More](https://v8.dev/features/intl-displaynames#full-api)                                                                          |
+| [VIntlDurationFormat](https://v-intl.vinayakkulkarni.dev/?utm_source=github&utm_medium=readme&utm_campaign=v-intl#duration)          | _Enables language-sensitive duration formatting._       | [Read More](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/DurationFormat)                        |
 
 They're are tree-shakable, meaning, you don't need to bulk up your bundle by including all the components.
 I've tried to keep the API as consistent as possible.
@@ -83,4 +85,15 @@ I've tried to keep the API as consistent as possible.
 **v-intl** &copy; [Vinayak](https://github.com/vinayakkulkarni), Released under the [MIT](./LICENSE) License.<br>
 Authored and maintained by Vinayak Kulkarni with help from contributors ([list](https://github.com/vinayakkulkarni/v-intl/contributors)).
 
-> [vinayakkulkarni.dev](https://vinayakkulkarni.dev) · GitHub [@vinayakkulkarni](https://github.com/vinayakkulkarni) · Twitter [@\_vinayak_k](https://twitter.com/_vinayak_k)
+> [vinayakkulkarni.dev](https://vinayakkulkarni.dev/?utm_source=github&utm_medium=readme&utm_campaign=v-intl) · GitHub [@vinayakkulkarni](https://github.com/vinayakkulkarni) · Twitter [@\_vinayak_k](https://twitter.com/_vinayak_k)
+
+## More from the author
+
+- [v-clappr](https://v-clappr.vinayakkulkarni.dev/?utm_source=github&utm_medium=readme&utm_campaign=v-intl) — Vue 3 wrapper for the Clappr media player
+- [v-pip](https://v-pip.vinayakkulkarni.dev/?utm_source=github&utm_medium=readme&utm_campaign=v-intl) — picture-in-picture for Vue 3
+- [v-spotlight](https://v-spotlight.vinayakkulkarni.dev/?utm_source=github&utm_medium=readme&utm_campaign=v-intl) — cursor spotlight overlay for Vue 3
+- [v-image](https://v-image.vinayakkulkarni.dev/?utm_source=github&utm_medium=readme&utm_campaign=v-intl) — Vue 3 image input with live preview
+- [nxui](https://nxui.geoql.in/?utm_source=github&utm_medium=readme&utm_campaign=v-intl) — animated copy-paste UI components and Paper Shaders for Vue 3 and Nuxt
+- [shadscan-vue](https://shadscan-vue.geoql.in/?utm_source=github&utm_medium=readme&utm_campaign=v-intl) — UI-fundamentals audits for shadcn-vue and shadcn-nuxt apps
+
+See every project at [vinayakkulkarni.dev/projects](https://vinayakkulkarni.dev/projects?utm_source=github&utm_medium=readme&utm_campaign=v-intl) and [geoql.in](https://geoql.in/?utm_source=github&utm_medium=readme&utm_campaign=v-intl).
