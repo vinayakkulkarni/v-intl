@@ -7,6 +7,61 @@
 
 
 
+## [4.0.1](https://github.com/vinayakkulkarni/v-intl/compare/v4.0.0...v4.0.1) (2026-10-28)
+
+
+### Features
+
+* **demo:** enable ga4 ([#1871](https://github.com/vinayakkulkarni/v-intl/issues/1871)) ([bf5bf34](https://github.com/vinayakkulkarni/v-intl/commit/bf5bf342d7dce61819b05119a28d5cf03913293c))
+
+
+### Bug Fixes
+
+* **deps:** bump @formatjs/intl-durationformat from 0.10.12 to 0.11.1 ([#1868](https://github.com/vinayakkulkarni/v-intl/issues/1868)) ([df29c0a](https://github.com/vinayakkulkarni/v-intl/commit/df29c0aa14a62fdafb69729eda1114d2df6dd270))
+* **deps:** bump actions/setup-node from 4 to 6 ([5491ca1](https://github.com/vinayakkulkarni/v-intl/commit/5491ca15484c8cc16ac0acb2f0ba0bcd734f5de8))
+* **deps:** bump dependabot/fetch-metadata from 2.5.0 to 3.0.0 ([5d13e93](https://github.com/vinayakkulkarni/v-intl/commit/5d13e931d3656f057329729364534fe58607f11a))
+* **deps:** bump dependabot/fetch-metadata from 2.5.0 to 3.0.0 ([9b10295](https://github.com/vinayakkulkarni/v-intl/commit/9b1029508aaddf90955d7adf17baebffb0acdfda))
+* **deps:** bump dependabot/fetch-metadata in the actions-minor group ([#1834](https://github.com/vinayakkulkarni/v-intl/issues/1834)) ([e998000](https://github.com/vinayakkulkarni/v-intl/commit/e9980007f6e0c908cf671df3e9cd7a334c6364d8))
+* **deps:** bump github/codeql-action ([#1861](https://github.com/vinayakkulkarni/v-intl/issues/1861)) ([da06808](https://github.com/vinayakkulkarni/v-intl/commit/da068081fc4301f9ffeb73833ab240e91586ce2c))
+* **deps:** bump github/codeql-action ([#1862](https://github.com/vinayakkulkarni/v-intl/issues/1862)) ([b9f38c0](https://github.com/vinayakkulkarni/v-intl/commit/b9f38c0e902ffe21b6e8e619e56965fdd48abd27))
+* **deps:** bump github/codeql-action ([#1873](https://github.com/vinayakkulkarni/v-intl/issues/1873)) ([dce9429](https://github.com/vinayakkulkarni/v-intl/commit/dce9429c930d002541c89437c601935e064c18de))
+* **deps:** bump github/codeql-action in the actions-minor group ([#1850](https://github.com/vinayakkulkarni/v-intl/issues/1850)) ([b06d784](https://github.com/vinayakkulkarni/v-intl/commit/b06d7847d59c4db095f09e689e6546feafb430d1))
+* **deps:** bump github/codeql-action in the actions-minor group ([#1851](https://github.com/vinayakkulkarni/v-intl/issues/1851)) ([f60df97](https://github.com/vinayakkulkarni/v-intl/commit/f60df9703c372f013369de9b8bc38bf3fcadeac7))
+* **deps:** bump github/codeql-action in the actions-minor group ([#1854](https://github.com/vinayakkulkarni/v-intl/issues/1854)) ([8f66940](https://github.com/vinayakkulkarni/v-intl/commit/8f66940eac5f290334be2ebc50e96e8723d4e79e))
+* **deps:** bump github/codeql-action in the actions-minor group ([#1855](https://github.com/vinayakkulkarni/v-intl/issues/1855)) ([3ee8924](https://github.com/vinayakkulkarni/v-intl/commit/3ee89249fde04e599513aea4db177052584aa436))
+* **deps:** bump github/codeql-action in the actions-minor group ([#1856](https://github.com/vinayakkulkarni/v-intl/issues/1856)) ([6450dbb](https://github.com/vinayakkulkarni/v-intl/commit/6450dbb4daa2f77e3b6fc6855ba130f07947e0f3))
+* **deps:** bump github/codeql-action in the actions-minor group ([#1858](https://github.com/vinayakkulkarni/v-intl/issues/1858)) ([f79542e](https://github.com/vinayakkulkarni/v-intl/commit/f79542e87c4a457d16e0455d93e29d241f73580b))
+* **deps:** bump github/codeql-action in the actions-minor group ([#1859](https://github.com/vinayakkulkarni/v-intl/issues/1859)) ([9ef00d9](https://github.com/vinayakkulkarni/v-intl/commit/9ef00d9a28db10956dd6641e3df7bc39a963acff))
+* **deps:** bump github/codeql-action in the actions-minor group ([#1860](https://github.com/vinayakkulkarni/v-intl/issues/1860)) ([07b1cb6](https://github.com/vinayakkulkarni/v-intl/commit/07b1cb648745552dfdbf57d5c96e1adb1dfa95fe))
+* **deps:** bump pnpm/action-setup in the actions-minor group ([#1852](https://github.com/vinayakkulkarni/v-intl/issues/1852)) ([a2e3179](https://github.com/vinayakkulkarni/v-intl/commit/a2e317987d21c9ff6f3a6b2cec13d222809bfb19))
+* **deps:** bump pnpm/action-setup in the actions-minor group ([#1857](https://github.com/vinayakkulkarni/v-intl/issues/1857)) ([10c6eab](https://github.com/vinayakkulkarni/v-intl/commit/10c6eabf07c098e0ed0f43ed71c89b80b647cf16))
+* **deps:** bump the actions-minor group with 2 updates ([#1853](https://github.com/vinayakkulkarni/v-intl/issues/1853)) ([26214a0](https://github.com/vinayakkulkarni/v-intl/commit/26214a025f8ce39aac91686fd96e48e21a16fc80))
+* **deps:** bump vue ([#1865](https://github.com/vinayakkulkarni/v-intl/issues/1865)) ([ba33998](https://github.com/vinayakkulkarni/v-intl/commit/ba3399899eb1b2a54a6a3b838c8b2f6bd4d0a9e8))
+
+
+### Documentation
+
+* link live demo and related projects ([#1874](https://github.com/vinayakkulkarni/v-intl/issues/1874)) ([a3bba93](https://github.com/vinayakkulkarni/v-intl/commit/a3bba9335752f90013ef0123afc05a62c0685d47))
+* rewrite README badges + SEO descriptions, switch to pnpm ([6832d60](https://github.com/vinayakkulkarni/v-intl/commit/6832d603ace953331f13d2cccbbca527d821df59))
+
+
+### Miscellaneous
+
+* align husky+lint-staged with monorepo, update deps, format repo-wide ([d01e4a6](https://github.com/vinayakkulkarni/v-intl/commit/d01e4a688defc6a0748ddd41df52e467da2ad37f))
+* clean pre-vite-plus leftovers ([6a9cf60](https://github.com/vinayakkulkarni/v-intl/commit/6a9cf6028d6bda0658f623d74c36b298551c3dac))
+* **deps-dev:** bump the npm-development group with 2 updates ([#1845](https://github.com/vinayakkulkarni/v-intl/issues/1845)) ([15a6c0b](https://github.com/vinayakkulkarni/v-intl/commit/15a6c0b079863711ccd479c893c00216211ef45c))
+* **deps-dev:** bump the npm-development group with 4 updates ([#1864](https://github.com/vinayakkulkarni/v-intl/issues/1864)) ([4b399e4](https://github.com/vinayakkulkarni/v-intl/commit/4b399e45e33d11143b32a28edf8a876da40c83ff))
+* **deps:** bump all npm dependencies to latest via taze -l -w ([6797765](https://github.com/vinayakkulkarni/v-intl/commit/679776517cdd3771f5fe84871e39821bf530b9b9))
+* drop redundant vite tooling deps, update example deps ([4124a2e](https://github.com/vinayakkulkarni/v-intl/commit/4124a2e8b86d4c2837498e7d165d14ee6c42aca7))
+* migrate from bun to pnpm 11 with vite+ ([8176c60](https://github.com/vinayakkulkarni/v-intl/commit/8176c6032a1241cf8b4de7cf61d121593ff011e7))
+* move the demo to cloudflare workers, pnpm and latest deps ([#1870](https://github.com/vinayakkulkarni/v-intl/issues/1870)) ([6fe836c](https://github.com/vinayakkulkarni/v-intl/commit/6fe836c017d3c6bfc1ecbcf76c6da7c60738de50))
+* pin deps, inline oxlint config, wire JSR publish, remove orphaned files ([f401dec](https://github.com/vinayakkulkarni/v-intl/commit/f401dec118f46552abbf5f31370fe15eb0e04cca))
+* pin release-please tag prefix + restore lint-staged hooks ([e6ea618](https://github.com/vinayakkulkarni/v-intl/commit/e6ea61813578cd42a4cae6b12550595e6be15afe))
+* release 4.0.1 ([1a9ba5b](https://github.com/vinayakkulkarni/v-intl/commit/1a9ba5bbda1d8dfda1b4a8fe6da5c99502f6ab60))
+* replace bunx with pnpm exec in husky hooks ([db6e597](https://github.com/vinayakkulkarni/v-intl/commit/db6e597fcfb3610106de98c26532e477076228b4))
+* update dependencies and fix tsconfig for TypeScript 6.0 ([fdbb12c](https://github.com/vinayakkulkarni/v-intl/commit/fdbb12cb6d1d9f0e53d286fb014e34996edd2ff7))
+* use vp lint/vp fmt directly in lint-staged config ([e821564](https://github.com/vinayakkulkarni/v-intl/commit/e8215642a72e25f45944c72ea4ceafe30d9790c5))
+
 ## [4.0.0](https://github.com/vinayakkulkarni/v-intl/compare/v-intl-v3.4.0...v-intl-v4.0.0) (2026-02-07)
 
 
