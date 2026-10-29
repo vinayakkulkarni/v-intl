@@ -7,6 +7,13 @@
 
 
 
+## [4.0.2](https://github.com/vinayakkulkarni/v-intl/compare/v4.0.1...v4.0.2) (2026-10-29)
+
+
+### Miscellaneous
+
+* **deps-dev:** bump wrangler ([#1876](https://github.com/vinayakkulkarni/v-intl/issues/1876)) ([21b0eed](https://github.com/vinayakkulkarni/v-intl/commit/21b0eedafeb00aeee1ccc5306f8e6bad7275addc))
+
 ## [4.0.1](https://github.com/vinayakkulkarni/v-intl/compare/v4.0.0...v4.0.1) (2026-10-28)
 
 
