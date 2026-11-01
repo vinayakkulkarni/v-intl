@@ -15,7 +15,7 @@
   "dependencies": {
     "@nuxtjs/color-mode": "^4.0.1",
     "@vinayakkulkarni/v-intl": "workspace:*",
-    "nuxt": "^4.6.2",
+    "nuxt": "^4.6.3",
     "vue": "^3.5.44"
   },
   "devDependencies": {
