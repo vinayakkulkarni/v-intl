@@ -24,7 +24,7 @@ jobs:
       # knip (the dead-code pass) loads vite.config.ts and demo/nuxt.config.ts,
       # so their imports must resolve.
       - name: Setup pnpm
-        uses: pnpm/action-setup@v6.1.0
+        uses: pnpm/action-setup@v6.1.1
 
       - name: Setup Node.js
         uses: actions/setup-node@v6
