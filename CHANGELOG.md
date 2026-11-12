@@ -7,6 +7,30 @@
 
 
 
+## [4.0.2](https://github.com/vinayakkulkarni/v-intl/compare/v4.0.1...v4.0.2) (2026-11-12)
+
+
+### Bug Fixes
+
+* **deps:** bump @formatjs/intl-durationformat from 0.11.1 to 0.12.0 ([#1882](https://github.com/vinayakkulkarni/v-intl/issues/1882)) ([4004028](https://github.com/vinayakkulkarni/v-intl/commit/400402875d3773fe35860dd2087e6488afb4f879))
+* **deps:** bump @nuxtjs/color-mode from 4.0.1 to 4.1.0 ([#1880](https://github.com/vinayakkulkarni/v-intl/issues/1880)) ([95f2a4c](https://github.com/vinayakkulkarni/v-intl/commit/95f2a4cc1874e50ac2ade6d1b1760a90c708e50d))
+* **deps:** bump node-forge from 1.4.0 to 1.4.2 ([#1883](https://github.com/vinayakkulkarni/v-intl/issues/1883)) ([45a6963](https://github.com/vinayakkulkarni/v-intl/commit/45a69633471ca9f1cd335e0cd33845011e8c1d4e))
+* **deps:** bump node-forge from 1.4.2 to 1.4.3 ([#1891](https://github.com/vinayakkulkarni/v-intl/issues/1891)) ([38b6124](https://github.com/vinayakkulkarni/v-intl/commit/38b61248a2d638c820ffbc6311f290e901424f30))
+* **deps:** bump nuxt ([#1879](https://github.com/vinayakkulkarni/v-intl/issues/1879)) ([3d11eb9](https://github.com/vinayakkulkarni/v-intl/commit/3d11eb932ece0ff40292b45686d83e23629af115))
+* **deps:** bump the actions-minor group with 2 updates ([#1885](https://github.com/vinayakkulkarni/v-intl/issues/1885)) ([799b22a](https://github.com/vinayakkulkarni/v-intl/commit/799b22a6113b3fc6f61edeb5b8f5365d81f0e722))
+* **deps:** bump the npm-production group with 2 updates ([#1887](https://github.com/vinayakkulkarni/v-intl/issues/1887)) ([c3e6c8c](https://github.com/vinayakkulkarni/v-intl/commit/c3e6c8c006b0c08b931a5fa4e0e7d3c7c7543cfd))
+
+
+### Miscellaneous
+
+* **deps-dev:** bump the npm-development group across 1 directory with 4 updates ([#1886](https://github.com/vinayakkulkarni/v-intl/issues/1886)) ([0273a57](https://github.com/vinayakkulkarni/v-intl/commit/0273a579db023ccac29d8d93e7837d09cd647092))
+* **deps-dev:** bump the npm-development group with 2 updates ([#1881](https://github.com/vinayakkulkarni/v-intl/issues/1881)) ([545000e](https://github.com/vinayakkulkarni/v-intl/commit/545000e6fb8882f9cfd78828a8c6910e6db9296d))
+* **deps-dev:** bump the npm-development group with 2 updates ([#1888](https://github.com/vinayakkulkarni/v-intl/issues/1888)) ([465665c](https://github.com/vinayakkulkarni/v-intl/commit/465665c895ef3d262c293c241acfbb8af1c87dc7))
+* **deps-dev:** bump the npm-development group with 2 updates ([#1889](https://github.com/vinayakkulkarni/v-intl/issues/1889)) ([e47a48e](https://github.com/vinayakkulkarni/v-intl/commit/e47a48e081eadbc97d82310ad8e7f9320cfd7197))
+* **deps-dev:** bump the npm-development group with 3 updates ([#1878](https://github.com/vinayakkulkarni/v-intl/issues/1878)) ([6d80bf0](https://github.com/vinayakkulkarni/v-intl/commit/6d80bf032d4007bbc957fdb99342f8e661f21009))
+* **deps-dev:** bump wrangler ([#1876](https://github.com/vinayakkulkarni/v-intl/issues/1876)) ([21b0eed](https://github.com/vinayakkulkarni/v-intl/commit/21b0eedafeb00aeee1ccc5306f8e6bad7275addc))
+* **deps-dev:** bump wrangler ([#1884](https://github.com/vinayakkulkarni/v-intl/issues/1884)) ([bfa9c2f](https://github.com/vinayakkulkarni/v-intl/commit/bfa9c2f6225446a8a6ff1484b14de4c0be60dfd6))
+
 ## [4.0.1](https://github.com/vinayakkulkarni/v-intl/compare/v4.0.0...v4.0.1) (2026-10-28)
 
 
