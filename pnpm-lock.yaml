@@ -170,8 +170,8 @@ importers:
   .:
     dependencies:
       '@formatjs/intl-durationformat':
-        specifier: ^0.12.0
-        version: 0.12.3
+        specifier: ^0.12.4
+        version: 0.12.4
       vue:
         specifier: ^3.5.45
         version: 3.5.45(typescript@6.0.3)
@@ -716,8 +716,8 @@ packages:
   '@formatjs/fast-memoize@3.1.7':
     resolution: {integrity: sha512-zXfhLpvA6T7+efdt9JLbBwZ00tT7NsBMDVnDu8rpHeNNv8KfRZAMo2gkG0k9lK/Nzc//3kJ9pImsfuJxk3KhUA==}
 
-  '@formatjs/intl-durationformat@0.12.3':
-    resolution: {integrity: sha512-cpyMSdAZxRXVmA0TjZZn38ERjfxV8Kc1nDcp1RBAXyU6pB7Mgox+o3dVUnPLsNfblW5OAr1o281IyPRrod/T6g==}
+  '@formatjs/intl-durationformat@0.12.4':
+    resolution: {integrity: sha512-EjUHL8isAQOqXuLxGllgsfIQdLrLNo8iCOQHMqUNY4Fvl52hw6TEP0n9tPnOmQWb5wTUa92NeqyGmwhjQ2lvHA==}
 
   '@formatjs/intl-localematcher@0.10.1':
     resolution: {integrity: sha512-gBqglQK9rXuHsLmM8wzTMBy4Xo4d0jamirIVKuEL8F1rwbskWdpMA1kZarSkny+uvr5q/K6GSzE0Rcq1wZLl3g==}
@@ -4993,7 +4993,7 @@ snapshots:
 
   '@formatjs/fast-memoize@3.1.7': {}
 
-  '@formatjs/intl-durationformat@0.12.3':
+  '@formatjs/intl-durationformat@0.12.4':
     dependencies:
       '@formatjs/bigdecimal': 0.2.10
       '@formatjs/intl-localematcher': 0.10.1
