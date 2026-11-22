@@ -23,6 +23,6 @@
     "tailwindcss": "^4.3.5",
     "typescript": "^6.0.3",
     "vue-tsc": "^3.3.14",
-    "wrangler": "^4.163.0"
+    "wrangler": "^4.165.0"
   }
 }
