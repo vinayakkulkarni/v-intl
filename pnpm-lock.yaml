@@ -170,8 +170,8 @@ importers:
   .:
     dependencies:
       '@formatjs/intl-durationformat':
-        specifier: ^0.12.4
-        version: 0.12.4
+        specifier: ^0.13.0
+        version: 0.13.1
       vue:
         specifier: ^3.5.46
         version: 3.5.46(typescript@6.0.3)
@@ -718,17 +718,17 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  '@formatjs/bigdecimal@0.2.10':
-    resolution: {integrity: sha512-npIs6UARNOg5amJY5UOVsd6HUQQfzYjet0sa0SWIqzsnVhxLSpaIx2DjoIVrr/vqmjURjvroeW6dItjfy3Uf8A==}
+  '@formatjs/bigdecimal@0.2.11':
+    resolution: {integrity: sha512-HPfzK4SCEU4K++s2GI8h3FaSqdR+F2UbFZ6X9655ZwQj6Enca41ddYyZwDu2nkDeLiBKY5pdXYHjcoAs00/vUQ==}
 
-  '@formatjs/fast-memoize@3.1.7':
-    resolution: {integrity: sha512-zXfhLpvA6T7+efdt9JLbBwZ00tT7NsBMDVnDu8rpHeNNv8KfRZAMo2gkG0k9lK/Nzc//3kJ9pImsfuJxk3KhUA==}
+  '@formatjs/fast-memoize@3.1.8':
+    resolution: {integrity: sha512-Y9YFFfeBDkAWmLWD3LVNHbHlyELsP2lYRNoY6+QhtPh1/ujCiX5QYBzAqe0cWdkCxKVezHLt0qjWz1veEUV7UA==}
 
-  '@formatjs/intl-durationformat@0.12.4':
-    resolution: {integrity: sha512-EjUHL8isAQOqXuLxGllgsfIQdLrLNo8iCOQHMqUNY4Fvl52hw6TEP0n9tPnOmQWb5wTUa92NeqyGmwhjQ2lvHA==}
+  '@formatjs/intl-durationformat@0.13.1':
+    resolution: {integrity: sha512-CfXwADR6E1PYoK6WsBGE+b9/qGMeYgj2Roj7/zJJN2C5tf8PVq2qIGJLhonCk+UzZVdkl836LbPj0qMJ4rwb3w==}
 
-  '@formatjs/intl-localematcher@0.10.1':
-    resolution: {integrity: sha512-gBqglQK9rXuHsLmM8wzTMBy4Xo4d0jamirIVKuEL8F1rwbskWdpMA1kZarSkny+uvr5q/K6GSzE0Rcq1wZLl3g==}
+  '@formatjs/intl-localematcher@0.10.2':
+    resolution: {integrity: sha512-KvXcVOPLYRQ5s6O0MrHePLIIhkSUm5bZbsEHGmKI3xXoy7hvGxUoagaobAIi8/hc9YabgHvLDFeeqbrjPNIKwg==}
 
   '@img/colour@1.1.0':
     resolution: {integrity: sha512-Td76q7j57o/tLVdgS746cYARfSyxk8iEfRxewL9h4OMzYhbW4TAcppl0mT4eyqXddh6L/jwoM75mo7ixa/pCeQ==}
@@ -5171,18 +5171,18 @@ snapshots:
   '@esbuild/win32-x64@0.28.2':
     optional: true
 
-  '@formatjs/bigdecimal@0.2.10': {}
+  '@formatjs/bigdecimal@0.2.11': {}
 
-  '@formatjs/fast-memoize@3.1.7': {}
+  '@formatjs/fast-memoize@3.1.8': {}
 
-  '@formatjs/intl-durationformat@0.12.4':
+  '@formatjs/intl-durationformat@0.13.1':
     dependencies:
-      '@formatjs/bigdecimal': 0.2.10
-      '@formatjs/intl-localematcher': 0.10.1
+      '@formatjs/bigdecimal': 0.2.11
+      '@formatjs/intl-localematcher': 0.10.2
 
-  '@formatjs/intl-localematcher@0.10.1':
+  '@formatjs/intl-localematcher@0.10.2':
     dependencies:
-      '@formatjs/fast-memoize': 3.1.7
+      '@formatjs/fast-memoize': 3.1.8
 
   '@img/colour@1.1.0': {}
 
